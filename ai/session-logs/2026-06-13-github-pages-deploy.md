@@ -24,14 +24,24 @@ stage: release
 - `npm test -- --run`: passed, 6 files / 14 tests.
 - `npm run typecheck`: passed.
 - `npm run lint`: passed.
-- `VITE_PUBLIC_BASE=/paretune/ npm run build`: pending final deploy build.
+- `VITE_PUBLIC_BASE=/paretune/ npm run build`: passed.
 - `dist/index.html` references `/paretune/assets/...`, confirming GitHub Pages base path.
+- `git push -u origin main`: pushed source to `main`.
+- `git push origin gh-pages`: pushed static `dist` output to `gh-pages`.
+- `gh api repos/KANGSUNGBAE87/paretune/pages`: Pages source is `gh-pages` branch, path `/`, status `built`.
+- `curl -I -L https://kangsungbae87.github.io/paretune/`: HTTP 200.
+- Public JS/CSS assets under `/paretune/assets/` return HTTP 200.
+- In-app browser opened `https://kangsungbae87.github.io/paretune/` and read title `커플 성향지도`.
 
 ## Remaining Work
 
-- Commit and push source `main` to `origin`.
-- Push `dist` output to `gh-pages`.
-- Enable Pages source branch and verify the public URL returns the app.
+- None for this deploy.
+
+## Deployment Result
+
+- Source repository: `https://github.com/KANGSUNGBAE87/paretune`
+- Public URL: `https://kangsungbae87.github.io/paretune/`
+- Deployment method: branch-based GitHub Pages from `gh-pages`.
 
 ## Knowledge Store Promotion
 
