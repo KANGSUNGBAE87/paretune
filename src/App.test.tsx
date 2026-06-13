@@ -1,7 +1,8 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import App from "./App";
+import { setActiveLocale } from "./i18n";
 
 async function answerQuestions(count: number) {
   for (let index = 0; index < count; index += 1) {
@@ -23,6 +24,43 @@ async function openResultScreen() {
 }
 
 describe("App flow", () => {
+  beforeEach(() => {
+    window.localStorage.clear();
+    setActiveLocale("ko");
+  });
+
+  it("switches visible app copy to English and persists the locale", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+
+    await user.click(screen.getByRole("button", { name: "English" }));
+
+    expect(screen.getByRole("button", { name: "Start couple map" })).toBeInTheDocument();
+    expect(document.title).toBe("Couple Tendency Map");
+    expect(document.documentElement.lang).toBe("en");
+    expect(window.localStorage.getItem("couple-tendency:locale")).toBe("en");
+
+    await user.click(screen.getByRole("button", { name: "한국어" }));
+    expect(screen.getByRole("button", { name: "커플 성향지도 시작하기" })).toBeInTheDocument();
+    expect(document.title).toBe("커플 성향지도");
+    expect(document.documentElement.lang).toBe("ko");
+  });
+
+  it("keeps the safety notice content in English after switching locale", async () => {
+    const user = userEvent.setup();
+    const { container } = render(<App />);
+
+    await user.click(screen.getByRole("button", { name: "English" }));
+    await user.click(screen.getByRole("button", { name: "Start couple map" }));
+
+    expect(screen.getByText("Use this as a conversation guide")).toBeInTheDocument();
+    expect(screen.getByText("A tool for understanding your relationship more clearly.")).toBeInTheDocument();
+    expect(screen.getByText("A guide that helps start the conversation")).toBeInTheDocument();
+    expect(screen.getByText("A result for understanding, not blaming")).toBeInTheDocument();
+    expect(screen.getByText("Safety comes first in uncomfortable relationships")).toBeInTheDocument();
+    expect(container.querySelector(".screen")?.textContent).not.toMatch(/[가-힣]/);
+  });
+
   it("requires safety confirmation before setup", async () => {
     render(<App />);
 

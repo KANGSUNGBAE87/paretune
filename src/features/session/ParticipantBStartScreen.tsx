@@ -17,7 +17,7 @@ export function ParticipantBStartScreen({ nickname, onStart }: ParticipantBStart
       </div>
       <ScreenHeader
         kicker={t("participantBStart.kicker")}
-        title={t("participantBStart.title", "ko", { nickname })}
+        title={t("participantBStart.title", { nickname })}
         subtitle={t("participantBStart.body")}
       />
       <p className="privacy-pill">{t("handoff.privacy")}</p>

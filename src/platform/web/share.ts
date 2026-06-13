@@ -1,4 +1,5 @@
 import type { ShareSummary } from "../../core/report/reportTypes";
+import { t } from "../../i18n";
 import type { ShareAdapter } from "../ShareAdapter";
 
 type RuntimeNavigator = {
@@ -9,7 +10,7 @@ type RuntimeNavigator = {
 };
 
 function asText(summary: ShareSummary) {
-  return `${summary.title}\n${summary.oneLineSummary}\n\n잘 맞는 부분: ${summary.alignedArea}\n오늘의 대화 미션: ${summary.mission}`;
+  return `${summary.title}\n${summary.oneLineSummary}\n\n${t("share.card.aligned")}: ${summary.alignedArea}\n${t("share.card.mission")}: ${summary.mission}`;
 }
 
 export const webShareAdapter: ShareAdapter = {

@@ -1,6 +1,6 @@
 ---
-version: 0.2.2
-status: mvp-implemented
+version: 0.2.4
+status: active
 updated: 2026-06-13
 canonical: true
 ---
@@ -42,9 +42,25 @@ canonical: true
 
 ## Change Log
 
+| 0.2.4 | 2026-06-13 | 영어 선택 상태에서 안전 안내, 결과 차이 카드, 공유 텍스트, 문서 title/lang에 한국어가 섞이는 문제를 수정했다. |
+| 0.2.3 | 2026-06-13 | 한국어/영어 선택 i18n과 로그인/결제/광고 adapter 준비 상태를 반영했다. |
+
 | Version | Date | Summary |
 | --- | --- | --- |
 | 0.2.2 | 2026-06-13 | GitHub Pages 배포 기준과 public preview URL을 추가했다. |
 | 0.2.1 | 2026-06-13 | 하단 CTA overflow 수정, 결과 저장 safe payload, 결과 화면 홈/삭제 액션 분리를 반영했다. |
 | 0.2 | 2026-06-13 | MVP 구현 완료 상태, 실제 파일 구조, 검증 결과를 반영했다. |
 | 0.1 | 2026-06-13 | couple-mvp-implementation-plan.md를 최신 구현 계획으로 지정했다. |
+
+## 2026-06-13 I18n And Platform Readiness
+
+- 기존 i18n 구조를 실제 언어 선택 UI와 연결하고, 영어 문항/결과 템플릿 및 ads adapter 스텁을 보강했다.
+- 출시 기준: Apps in Toss first because it is non-game, while preserving Google Play compatibility.
+- 사용자 노출 문구는 i18n 경유를 기본으로 하고, 새 언어는 locale option/dictionary를 추가하는 방식으로 확장한다.
+- 로그인, 결제/IAP, 광고는 제품/도메인 로직에서 직접 SDK를 import하지 않고 platform adapter 내부에서만 구현한다.
+- 실제 계정 연동, 광고 노출, 유료 entitlement 검증은 backend/SDK 결정 후 adapter 내부에서만 구현한다.
+
+### Verification
+
+- npm test -- --run: 8 files, 17 tests passed
+- npm run build: passed

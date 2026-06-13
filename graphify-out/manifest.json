@@ -10,7 +10,7 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/.understand-anything/config.json": {
-    "mtime": 1781024331.2567792,
+    "mtime": 1781350586.8667488,
     "ast_hash": "9edbc24de94a33f8fd4a958982cff046",
     "semantic_hash": ""
   },
@@ -30,13 +30,13 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/AGENTS.md": {
-    "mtime": 1781288362.2220728,
-    "ast_hash": "7cafe19d59d76b4e4af3ea6928a8592a",
+    "mtime": 1781349696.0884838,
+    "ast_hash": "5421b29eb2075f7c495763112a47730e",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/CLAUDE.md": {
-    "mtime": 1781288362.2224305,
-    "ast_hash": "7cafe19d59d76b4e4af3ea6928a8592a",
+    "mtime": 1781349696.0887215,
+    "ast_hash": "5421b29eb2075f7c495763112a47730e",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/README.md": {
@@ -105,8 +105,8 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/plans/implementation-plan.md": {
-    "mtime": 1781348099.5653572,
-    "ast_hash": "f2fcf815631b9268d9f57eb6023bc047",
+    "mtime": 1781351349.9851522,
+    "ast_hash": "531a58cfc8c3357015440bf96a7b4cf0",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/session-logs/2026-06-13-couple-mvp-implementation-plan.md": {
@@ -130,13 +130,13 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/App.test.tsx": {
-    "mtime": 1781335736.1130304,
-    "ast_hash": "6f55345abaeb5e0b854b73988e8ae66c",
+    "mtime": 1781351214.1681044,
+    "ast_hash": "fb6f444e9de28c43d782612e97d4bd90",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/App.tsx": {
-    "mtime": 1781335751.459802,
-    "ast_hash": "565726877277ee921bd2fb6819a0982e",
+    "mtime": 1781351231.3303015,
+    "ast_hash": "84b229b572e7266a62c0a672b2c615ac",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/components/AppShell.tsx": {
@@ -210,8 +210,8 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/report/resultTemplates.ts": {
-    "mtime": 1781333480.4319675,
-    "ast_hash": "a2e4e7ae47ef045180c6323df2a2d734",
+    "mtime": 1781350065.2409048,
+    "ast_hash": "4924feb6f8dac083e09d2013edecba2d",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/scoring/compareParticipants.test.ts": {
@@ -230,8 +230,8 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/scoring/generateCoupleReport.ts": {
-    "mtime": 1781333480.529155,
-    "ast_hash": "7c92e9d9c66c19057f71492183c600bb",
+    "mtime": 1781350065.241195,
+    "ast_hash": "1fa323db23c3e3d56c82f4327de116be",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/scoring/scoreParticipant.test.ts": {
@@ -280,13 +280,13 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/result/CoupleResultScreen.tsx": {
-    "mtime": 1781335766.3445523,
-    "ast_hash": "b83334a547c804f2753680f154a3ef17",
+    "mtime": 1781350065.2404208,
+    "ast_hash": "59dd045ba2131a13dc0bd37cc3900632",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/result/DifferenceCard.tsx": {
-    "mtime": 1781333830.3418407,
-    "ast_hash": "4d8c897ad07c371b4de79e8c21973ed6",
+    "mtime": 1781350976.7579865,
+    "ast_hash": "10dcb16cf7b5b488e64e6e95fc0f18c5",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/result/MissionCard.tsx": {
@@ -305,8 +305,8 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/session/ParticipantBStartScreen.tsx": {
-    "mtime": 1781333784.9346526,
-    "ast_hash": "edebaa0c4523a9b7ede64260f761a8d7",
+    "mtime": 1781350166.0072227,
+    "ast_hash": "e98909a2edcaf51aec3fbd9ca8e68270",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/session/ReadyToRevealScreen.tsx": {
@@ -315,13 +315,13 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/session/SafetyNoticeScreen.tsx": {
-    "mtime": 1781333784.6859334,
-    "ast_hash": "5977b5e0e7116d0d2a5c3936ab65e426",
+    "mtime": 1781350976.5631297,
+    "ast_hash": "dba9ed2c7b6596a76efc786225f1194c",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/session/SessionSetupScreen.tsx": {
-    "mtime": 1781333784.7678726,
-    "ast_hash": "53a666dcda5d6b220f42dd54ea94a8bd",
+    "mtime": 1781350065.239591,
+    "ast_hash": "7f7fd8e6bcb5cf5690d94a03dc2e441d",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/session/StartScreen.tsx": {
@@ -330,8 +330,8 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/settings/SettingsScreen.tsx": {
-    "mtime": 1781335010.8877342,
-    "ast_hash": "f021f3b66b2ced7459fd35e5f54b5eb1",
+    "mtime": 1781350065.240181,
+    "ast_hash": "af9901dced77e5f50db5412608e02292",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/share/ShareCardScreen.tsx": {
@@ -340,8 +340,8 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/share/SharePreviewCard.tsx": {
-    "mtime": 1781333830.704361,
-    "ast_hash": "a7b95a548f43a7c2a21695c9a313c045",
+    "mtime": 1781350065.2406309,
+    "ast_hash": "afa43fa876ad08664557c805090441d9",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/test/QuestionCard.tsx": {
@@ -350,28 +350,28 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/test/ScaleOptionGroup.tsx": {
-    "mtime": 1781333830.0630076,
-    "ast_hash": "4e417c9068fcb55bd63c7bb1fd63a74e",
+    "mtime": 1781350065.24008,
+    "ast_hash": "de399db8308353008eec491de298f25e",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/test/TestScreen.tsx": {
-    "mtime": 1781333830.1580467,
-    "ast_hash": "fca2a0edb697e1bca2eba1de0f0ebd40",
+    "mtime": 1781350166.0073678,
+    "ast_hash": "4dd4982a5a2a2d91d836990da40b9ce1",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/i18n/en.ts": {
-    "mtime": 1781333429.4646783,
-    "ast_hash": "b3db039a88d719bcecb5edef551dc130",
+    "mtime": 1781350976.3991697,
+    "ast_hash": "1cb14fea48163be8caf63cd0a0bad9f6",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/i18n/index.ts": {
-    "mtime": 1781333429.5596442,
-    "ast_hash": "c578261f42c51b60ade06f2656f2b42a",
+    "mtime": 1781350166.0070884,
+    "ast_hash": "d8281ba8c4193292a5687298c0c10b4f",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/i18n/ko.ts": {
-    "mtime": 1781335776.1727319,
-    "ast_hash": "eefa1146c53aaaafa36b9213aa03ce50",
+    "mtime": 1781350976.2358208,
+    "ast_hash": "09e4e3b581bb6c804054638478fde6b2",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/main.tsx": {
@@ -385,18 +385,18 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/AuthAdapter.ts": {
-    "mtime": 1781333740.3251512,
-    "ast_hash": "304077bff69525a6bbe650d889615e4e",
+    "mtime": 1781350065.2369676,
+    "ast_hash": "34a0ebd918883401a175ed24223620ab",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/LocaleAdapter.ts": {
-    "mtime": 1781333740.2174532,
+    "mtime": 1781350065.2365923,
     "ast_hash": "6bef7f58bf8a0681aae432c661241833",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/PaymentAdapter.ts": {
-    "mtime": 1781333740.104621,
-    "ast_hash": "d3fdc8f0fc2cdab05733b3cf0fa853ca",
+    "mtime": 1781350065.237287,
+    "ast_hash": "68d95e3047dd035f388ca7b87a64aeff",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/ShareAdapter.ts": {
@@ -410,8 +410,8 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/index.ts": {
-    "mtime": 1781333741.0783563,
-    "ast_hash": "378acba161ccc79502d53844f87f36c1",
+    "mtime": 1781350065.2380683,
+    "ast_hash": "5633aa2641df5c306bfbcae24f743740",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/analytics.ts": {
@@ -420,23 +420,23 @@
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/auth.ts": {
-    "mtime": 1781333740.9670594,
-    "ast_hash": "26ba9b08596379f9973e11bf3e7accdb",
+    "mtime": 1781350065.237115,
+    "ast_hash": "5db03d1646b78015b9294592f979b3b4",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/locale.ts": {
-    "mtime": 1781333740.8452175,
-    "ast_hash": "b1b1f6bdbfedf01cc818f499c5f523ca",
+    "mtime": 1781350977.0872214,
+    "ast_hash": "1df1f0afb0010d6b64cd9df2e1af0df8",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/payment.ts": {
-    "mtime": 1781333740.7296164,
-    "ast_hash": "e804c9b72c237a22fdf2b16c099ec33f",
+    "mtime": 1781350065.2375605,
+    "ast_hash": "1e9eda813bf1c4a701fb13aa5791bf6d",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/share.ts": {
-    "mtime": 1781334126.7484813,
-    "ast_hash": "581891ed3124061ac9af7eb4a8653789",
+    "mtime": 1781350976.9243338,
+    "ast_hash": "ed4ebae877e59baf167228ca5896ae33",
     "semantic_hash": ""
   },
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/storage.ts": {
@@ -482,6 +482,46 @@
   "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/session-logs/2026-06-13-github-pages-deploy.md": {
     "mtime": 1781348867.766186,
     "ast_hash": "a4d2bb19186c03b8c2f4125a8375c3ee",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/i18n/index.test.ts": {
+    "mtime": 1781350065.2417264,
+    "ast_hash": "939b791e5119467b68f982ce684200b0",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/AdsAdapter.ts": {
+    "mtime": 1781350065.2377696,
+    "ast_hash": "f0d1773364d9a5992c040f754e587d67",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/platformAdapters.test.ts": {
+    "mtime": 1781350065.2419133,
+    "ast_hash": "1b07bd370cc9c5cfcebed5df7ef3d3ba",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/ads.ts": {
+    "mtime": 1781350065.237932,
+    "ast_hash": "0fc41d2a1eddc739dd474648f411655a",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/session-logs/2026-06-13-\ucee4\ud50c\uc131\ud5a5-i18n-platform-readiness.md": {
+    "mtime": 1781350546.1630497,
+    "ast_hash": "496e8e1a8158335e35c36ef531500b35",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/result/DifferenceCard.test.tsx": {
+    "mtime": 1781350924.8941214,
+    "ast_hash": "41c5b443f12fdfb2f5788b152a384099",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/share.test.ts": {
+    "mtime": 1781350925.0950897,
+    "ast_hash": "8c576416bf7f1bc38b6df749d4c8796a",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/session-logs/2026-06-13-english-locale-leak-fix.md": {
+    "mtime": 1781351349.8067179,
+    "ast_hash": "35aa2c9ad7f90bc2ca49881c55407dc7",
     "semantic_hash": ""
   }
 }

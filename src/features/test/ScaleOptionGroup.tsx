@@ -10,7 +10,7 @@ const values: QuestionResponse["value"][] = [1, 2, 3, 4, 5];
 
 export function ScaleOptionGroup({ value, onChange }: ScaleOptionGroupProps) {
   return (
-    <div className="scale-group" role="radiogroup" aria-label="답변 선택">
+    <div className="scale-group" role="radiogroup" aria-label={t("test.answer.aria")}>
       {values.map((option) => (
         <label key={option} className={`scale-option ${value === option ? "is-selected" : ""}`}>
           <input

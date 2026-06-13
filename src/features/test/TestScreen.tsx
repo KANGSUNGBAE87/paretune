@@ -21,7 +21,7 @@ export function TestScreen({ participantId, nickname, completeLabel, onComplete 
   const [answers, setAnswers] = useState<QuestionResponse[]>([]);
   const current = questions[index];
   const selected = answers.find((answer) => answer.questionId === current.id)?.value;
-  const domainLabel = t(`test.domain.${current.domain}`);
+  const domainLabel = t("test.domain." + current.domain);
   const questionText = t(current.textKey);
   const isLast = index === questions.length - 1;
   const buttonLabel = useMemo(() => (isLast ? completeLabel : t("test.cta.next")), [completeLabel, isLast]);
@@ -35,8 +35,11 @@ export function TestScreen({ participantId, nickname, completeLabel, onComplete 
 
   function next() {
     if (!selected) return;
+    const nextAnswers = answers.some((answer) => answer.questionId === current.id)
+      ? answers
+      : [...answers, { questionId: current.id, value: selected }];
     if (isLast) {
-      onComplete(participantId, answers);
+      onComplete(participantId, nextAnswers);
       return;
     }
     setIndex((currentIndex) => currentIndex + 1);
@@ -44,7 +47,7 @@ export function TestScreen({ participantId, nickname, completeLabel, onComplete 
 
   return (
     <AppShell bottomAction={<PrimaryButton disabled={!selected} onClick={next}>{buttonLabel}</PrimaryButton>}>
-      <ScreenHeader title={`${nickname}님 테스트`} subtitle="상대의 답변은 보이지 않아요. 자신의 생각대로 답해주세요." />
+      <ScreenHeader title={t("test.title", { nickname })} subtitle={t("test.subtitle")} />
       <ProgressBar current={index + 1} total={questions.length} label={domainLabel} />
       <QuestionCard question={questionText} />
       <ScaleOptionGroup value={selected} onChange={select} />

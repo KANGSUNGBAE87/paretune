@@ -49,14 +49,14 @@ export function SessionSetupScreen({
         </div>
       </section>
       <section className="form-section">
-        <h2>닉네임을 입력해 주세요</h2>
+        <h2>{t("session.nickname.title")}</h2>
         <TextInputCard
-          label="첫 번째 사람 닉네임"
+          label={t("participant.firstNickname.label")}
           value={participantAName}
           onChange={(event) => onParticipantANameChange(event.target.value)}
         />
         <TextInputCard
-          label="두 번째 사람 닉네임"
+          label={t("participant.secondNickname.label")}
           value={participantBName}
           onChange={(event) => onParticipantBNameChange(event.target.value)}
         />

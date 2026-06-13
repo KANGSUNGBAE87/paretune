@@ -26,7 +26,7 @@ export function CoupleResultScreen({ report, names, isSaved, onSave, onShare, on
     <AppShell>
       <div className="top-bar">
         <span>{t("app.title")}</span>
-        <GhostButton aria-label="설정" onClick={onSettings}>
+        <GhostButton aria-label={t("settings.title")} onClick={onSettings}>
           <Settings size={20} aria-hidden />
         </GhostButton>
       </div>

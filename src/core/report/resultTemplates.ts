@@ -1,3 +1,4 @@
+import type { Locale } from "../../i18n";
 import type { CoupleDifference } from "../scoring/compareParticipants";
 
 export type DifferenceTemplate = {
@@ -11,7 +12,7 @@ export type DifferenceTemplate = {
   mission: string;
 };
 
-const fallback: DifferenceTemplate = {
+const fallbackKo: DifferenceTemplate = {
   axis: "fallback",
   title: "맞춰가는 방식",
   high: "이 영역을 더 분명하게 느끼는 편이에요.",
@@ -22,7 +23,18 @@ const fallback: DifferenceTemplate = {
   mission: "오늘 서로에게 '내가 편안함을 느끼는 관계 방식'을 하나씩 말해보세요.",
 };
 
-const templates: Record<string, DifferenceTemplate> = {
+const fallbackEn: DifferenceTemplate = {
+  axis: "fallback",
+  title: "How we adjust",
+  high: "tends to feel this area more clearly.",
+  low: "tends to let this area flow more lightly.",
+  misunderstanding: "A different level of importance can make care feel less visible.",
+  adjustment: "Name the moment when it matters so the other person can understand it sooner.",
+  agreement: "When something feels different, listen to why it matters before deciding what it means.",
+  mission: "Today, each person names one relationship style that helps them feel comfortable.",
+};
+
+const koTemplates: Record<string, DifferenceTemplate> = {
   contact_frequency: {
     axis: "contact_frequency",
     title: "연결되는 빈도",
@@ -95,6 +107,81 @@ const templates: Record<string, DifferenceTemplate> = {
   },
 };
 
-export function getDifferenceTemplate(difference: CoupleDifference): DifferenceTemplate {
+const enTemplates: Record<string, DifferenceTemplate> = {
+  contact_frequency: {
+    axis: "contact_frequency",
+    title: "Connection frequency",
+    high: "feels steadier with more frequent contact.",
+    low: "can stay steady even with less contact or fewer meetups.",
+    misunderstanding: "Different reply rhythms can make interest feel unequal.",
+    adjustment: "Choose a small reassurance signal for busy days.",
+    agreement: "On busy days, give a quick heads-up; on anxious days, ask directly and briefly.",
+    mission: "Today, each person shares one contact rhythm that feels comfortable.",
+  },
+  planning_style: {
+    axis: "planning_style",
+    title: "Date planning style",
+    high: "feels comfortable when plans are decided in advance.",
+    low: "can enjoy a more spontaneous flow.",
+    misunderstanding: "Different planning needs can feel like pressure on one side and indifference on the other.",
+    adjustment: "Separate what must be planned from what can stay flexible.",
+    agreement: "Plan the important parts early and leave small choices to the day itself.",
+    mission: "For the next date, choose one thing to plan and one thing to leave open.",
+  },
+  reassurance_sensitivity: {
+    axis: "reassurance_sensitivity",
+    title: "How reassurance lands",
+    high: "gets steadier through expression and confirmation.",
+    low: "can trust the relationship even with fewer explicit expressions.",
+    misunderstanding: "Different expression frequency can be mistaken for shrinking affection.",
+    adjustment: "Share that love size and reassurance style can be different things.",
+    agreement: "On anxious days, ask briefly instead of guessing; after reassurance, let the mind rest.",
+    mission: "Today, name one expression that reassures you and one that feels heavy.",
+  },
+  personal_space_independence: {
+    axis: "personal_space_independence",
+    title: "Closeness and personal space",
+    high: "values independent time and personal space.",
+    low: "feels comfortable with more shared time and daily sharing.",
+    misunderstanding: "Time alone can be mistaken for distance.",
+    adjustment: "Say clearly that alone time does not mean the relationship matters less.",
+    agreement: "When alone time is needed, name the time window and the signal for reconnecting.",
+    mission: "This week, each person shares one solo-time need and one together-time wish.",
+  },
+  words_affection: {
+    axis: "words_affection",
+    title: "How affection is heard",
+    high: "feels loved through words.",
+    low: "trusts actions or atmosphere more than words.",
+    misunderstanding: "Different expression styles can hide care that is actually present.",
+    adjustment: "Tell each other which expression reaches you most easily.",
+    agreement: "Mix words and actions instead of insisting on only one channel.",
+    mission: "Today, offer one affection expression your partner can receive comfortably.",
+  },
+  conflict_timing: {
+    axis: "conflict_timing",
+    title: "Speed of reconnecting after conflict",
+    high: "wants to talk and reconnect quickly after conflict.",
+    low: "feels safer talking after emotions settle.",
+    misunderstanding: "One person can feel avoided while the other feels pushed.",
+    adjustment: "Set both a pause time and a time to return to the conversation.",
+    agreement: "Pause right after conflict, then return at the time you both named.",
+    mission: "Choose your shared 'pause and return' timing.",
+  },
+  empathy_solution_balance: {
+    axis: "empathy_solution_balance",
+    title: "Empathy before solution",
+    high: "opens up when emotions are understood first.",
+    low: "settles down when the next action is clear.",
+    misunderstanding: "Different order needs can make the conversation miss each other.",
+    adjustment: "At the start, say whether you need empathy or problem-solving first.",
+    agreement: "Begin conflict talks with either 'I need empathy' or 'I want to decide what to do next.'",
+    mission: "Talk about one small recent hurt: one minute empathy, one minute next step.",
+  },
+};
+
+export function getDifferenceTemplate(difference: CoupleDifference, locale: Locale = "ko"): DifferenceTemplate {
+  const templates = locale === "en" ? enTemplates : koTemplates;
+  const fallback = locale === "en" ? fallbackEn : fallbackKo;
   return templates[difference.axis] ?? fallback;
 }

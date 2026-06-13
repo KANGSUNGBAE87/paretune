@@ -1,4 +1,5 @@
 import type { ShareSummary } from "../../core/report/reportTypes";
+import { t } from "../../i18n";
 
 type SharePreviewCardProps = {
   summary: ShareSummary;
@@ -16,11 +17,11 @@ export function SharePreviewCard({ summary, names }: SharePreviewCardProps) {
       </header>
       <h2>{summary.oneLineSummary}</h2>
       <div>
-        <b>잘 맞는 부분</b>
+        <b>{t("share.card.aligned")}</b>
         <p>{summary.alignedArea}</p>
       </div>
       <div>
-        <b>오늘의 대화 미션</b>
+        <b>{t("share.card.mission")}</b>
         <p>{summary.mission}</p>
       </div>
     </article>

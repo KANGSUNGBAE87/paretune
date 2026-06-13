@@ -1,4 +1,5 @@
 import type { DifferenceReport } from "../../core/report/reportTypes";
+import { t } from "../../i18n";
 
 type DifferenceCardProps = {
   index: number;
@@ -15,11 +16,11 @@ export function DifferenceCard({ index, difference }: DifferenceCardProps) {
       <p>{difference.participantADescription}</p>
       <p>{difference.participantBDescription}</p>
       <div className="soft-note">
-        <strong>오해가 생기기 쉬운 순간</strong>
+        <strong>{t("result.misunderstanding.title")}</strong>
         <p>{difference.misunderstandingMoment}</p>
       </div>
       <div className="soft-note soft-note--blue">
-        <strong>맞춰가는 방법</strong>
+        <strong>{t("result.adjustment.title")}</strong>
         <p>{difference.adjustmentTip}</p>
       </div>
     </article>

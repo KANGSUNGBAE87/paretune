@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { DeleteConfirmModal } from "./components/DeleteConfirmModal";
 import { questions, QUESTION_SET_VERSION } from "./core/questions/questions";
 import { resultAxes } from "./core/questions/resultAxes";
@@ -18,7 +18,8 @@ import { StartScreen } from "./features/session/StartScreen";
 import { SettingsScreen } from "./features/settings/SettingsScreen";
 import { ShareCardScreen } from "./features/share/ShareCardScreen";
 import { TestScreen } from "./features/test/TestScreen";
-import { shareAdapter, storageAdapter } from "./platform";
+import { localeOptions, setActiveLocale, t, type Locale } from "./i18n";
+import { adsAdapter, authAdapter, localeAdapter, paymentAdapter, shareAdapter, storageAdapter } from "./platform";
 
 type Screen =
   | "start"
@@ -62,25 +63,59 @@ function savedResultPayload(session: CoupleSession) {
   };
 }
 
+function LanguageSwitcher({ locale, onChange }: { locale: Locale; onChange: (locale: Locale) => void }) {
+  return (
+    <div className="locale-switcher" aria-label={t("settings.language")}>
+      {localeOptions.map((option) => (
+        <button
+          key={option.id}
+          type="button"
+          className={option.id === locale ? "is-selected" : ""}
+          aria-pressed={option.id === locale}
+          onClick={() => onChange(option.id)}
+        >
+          {t("settings.language." + option.id)}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 export default function App() {
+  const [locale, setLocaleState] = useState<Locale>(() => {
+    const initial = localeAdapter.getLocale();
+    setActiveLocale(initial);
+    return initial;
+  });
   const [screen, setScreen] = useState<Screen>("start");
   const [safetyChecked, setSafetyChecked] = useState(false);
   const [relationshipStatus, setRelationshipStatus] = useState<RelationshipStatus>("dating");
-  const [participantAName, setParticipantAName] = useState("첫 번째 사람");
-  const [participantBName, setParticipantBName] = useState("두 번째 사람");
+  const [participantAName, setParticipantAName] = useState(() => t("participant.first.label"));
+  const [participantBName, setParticipantBName] = useState(() => t("participant.second.label"));
   const [firstParticipantId, setFirstParticipantId] = useState<ParticipantId>("participantA");
   const [session, setSession] = useState<CoupleSession>();
   const [deleteOpen, setDeleteOpen] = useState(false);
   const [deleteTarget, setDeleteTarget] = useState<DeleteTarget>("session");
 
-  const names: [string, string] = useMemo(
-    () => [session?.participants.participantA.nickname ?? participantAName, session?.participants.participantB.nickname ?? participantBName],
-    [participantAName, participantBName, session],
-  );
+  const names: [string, string] = [
+    session?.participants.participantA.nickname ?? participantAName,
+    session?.participants.participantB.nickname ?? participantBName,
+  ];
+
+  function changeLocale(nextLocale: Locale) {
+    localeAdapter.setLocale(nextLocale);
+    setActiveLocale(nextLocale);
+    setLocaleState(nextLocale);
+  }
+
+  useEffect(() => {
+    document.title = t("app.title");
+    document.documentElement.lang = locale;
+  }, [locale]);
 
   function startSession() {
-    const firstName = participantAName.trim() || "첫 번째 사람";
-    const secondName = participantBName.trim() || "두 번째 사람";
+    const firstName = participantAName.trim() || t("participant.first.label");
+    const secondName = participantBName.trim() || t("participant.second.label");
     const firstParticipantName = firstParticipantId === "participantA" ? firstName : secondName;
     const secondParticipantName = firstParticipantId === "participantA" ? secondName : firstName;
     const nextSession = createSession({
@@ -112,7 +147,7 @@ export default function App() {
     const scoreA = scoreParticipant(session.responses.participantA, questions, resultAxes);
     const scoreB = scoreParticipant(session.responses.participantB, questions, resultAxes);
     const differences = compareParticipants(scoreA, scoreB, resultAxes);
-    const report = generateCoupleReport(session, scoreA, scoreB, differences, "ko");
+    const report = generateCoupleReport(session, scoreA, scoreB, differences, locale);
     setSession(revealResult({ ...session, status: "ready_to_reveal" }, report));
     setScreen("result");
   }
@@ -177,6 +212,7 @@ export default function App() {
 
   return (
     <>
+      <LanguageSwitcher locale={locale} onChange={changeLocale} />
       {screen === "start" && <StartScreen onStart={() => setScreen("safety")} />}
       {screen === "safety" && (
         <SafetyNoticeScreen checked={safetyChecked} onCheckedChange={setSafetyChecked} onNext={() => setScreen("setup")} />
@@ -195,11 +231,11 @@ export default function App() {
         />
       )}
       {screen === "testA" && (
-        <TestScreen participantId="participantA" nickname={names[0]} completeLabel="답변 봉인하기" onComplete={completeA} />
+        <TestScreen participantId="participantA" nickname={names[0]} completeLabel={t("test.cta.seal")} onComplete={completeA} />
       )}
       {screen === "handoff" && <HandoffScreen onNext={() => setScreen("participantBStart")} />}
       {screen === "participantBStart" && <ParticipantBStartScreen nickname={names[1]} onStart={() => setScreen("testB")} />}
-      {screen === "testB" && <TestScreen participantId="participantB" nickname={names[1]} completeLabel="다음" onComplete={completeB} />}
+      {screen === "testB" && <TestScreen participantId="participantB" nickname={names[1]} completeLabel={t("common.next")} onComplete={completeB} />}
       {screen === "ready" && <ReadyToRevealScreen onReveal={reveal} />}
       {screen === "result" && report && (
         <CoupleResultScreen
@@ -218,6 +254,14 @@ export default function App() {
       )}
       {screen === "settings" && (
         <SettingsScreen
+          locale={locale}
+          localeOptions={localeOptions}
+          platformReadiness={{
+            auth: authAdapter.plannedProviders,
+            payment: paymentAdapter.plannedStores,
+            ads: adsAdapter.plannedNetworks,
+          }}
+          onLocaleChange={changeLocale}
           onBack={() => setScreen("result")}
           onDeleteResult={() => requestDelete("result")}
           onDeleteSession={() => requestDelete("session")}

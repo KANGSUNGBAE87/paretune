@@ -20,20 +20,20 @@ export function SafetyNoticeScreen({ checked, onCheckedChange, onNext }: SafetyN
         </PrimaryButton>
       }
     >
-      <ScreenHeader title={t("onboarding.safety.title")} subtitle="우리 사이를 더 이해하기 위한 도구예요." />
+      <ScreenHeader title={t("onboarding.safety.title")} subtitle={t("onboarding.safety.subtitle")} />
       <div className="stack">
         <NoticeCard
           icon={<MessageCircle aria-hidden />}
-          title="대화의 시작을 돕는 참고 결과"
-          body="우리가 나누는 대화가 더 쉬워질 수 있도록 도와줘요."
+          title={t("onboarding.safety.conversation.title")}
+          body={t("onboarding.safety.conversation.body")}
         />
         <NoticeCard
           icon={<ShieldCheck aria-hidden />}
-          title="비난보다 이해를 위한 결과"
-          body="옳고 그름을 가리기보다, 서로의 다름을 이해하는 데 집중해요."
+          title={t("onboarding.safety.understanding.title")}
+          body={t("onboarding.safety.understanding.body")}
           tone="lavender"
         />
-        <NoticeCard icon={<Siren aria-hidden />} title="불편한 관계에서는 안전이 먼저" body={t("onboarding.safety.body")} />
+        <NoticeCard icon={<Siren aria-hidden />} title={t("onboarding.safety.safeFirst.title")} body={t("onboarding.safety.body")} />
       </div>
       <label className="checkbox-card">
         <input type="checkbox" checked={checked} onChange={(event) => onCheckedChange(event.target.checked)} />
