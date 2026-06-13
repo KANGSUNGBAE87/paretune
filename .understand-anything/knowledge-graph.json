@@ -1,0 +1,3644 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "커플성향",
+    "languages": [
+      "json",
+      "markdown",
+      "unknown"
+    ],
+    "frameworks": [],
+    "description": "커플성향 프로젝트 구조 그래프",
+    "analyzedAt": "2026-06-09T16:58:36.558Z",
+    "gitCommitHash": "unknown"
+  },
+  "nodes": [
+    {
+      "id": "file:.agents/skills/graphify/.graphify_version",
+      "type": "file",
+      "name": ".graphify_version",
+      "filePath": ".agents/skills/graphify/.graphify_version",
+      "summary": ".agents/skills/graphify/.graphify_version 파일. 언어: unknown, 분류: code.",
+      "tags": [
+        "code",
+        "unknown",
+        ".agents"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:.agents/skills/graphify/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "summary": ".agents/skills/graphify/SKILL.md 파일. 언어: markdown, 분류: docs.",
+      "tags": [
+        "docs",
+        "markdown",
+        ".agents"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:.claude/CLAUDE.md",
+      "type": "document",
+      "name": "CLAUDE.md",
+      "filePath": ".claude/CLAUDE.md",
+      "summary": ".claude/CLAUDE.md 파일. 언어: markdown, 분류: docs.",
+      "tags": [
+        "docs",
+        "markdown",
+        ".claude"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.claude/settings.json",
+      "type": "config",
+      "name": "settings.json",
+      "filePath": ".claude/settings.json",
+      "summary": ".claude/settings.json 파일. 언어: json, 분류: config.",
+      "tags": [
+        "config",
+        "json",
+        ".claude"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.claude/skills/graphify/.graphify_version",
+      "type": "file",
+      "name": ".graphify_version",
+      "filePath": ".claude/skills/graphify/.graphify_version",
+      "summary": ".claude/skills/graphify/.graphify_version 파일. 언어: unknown, 분류: code.",
+      "tags": [
+        "code",
+        "unknown",
+        ".claude"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:.claude/skills/graphify/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "summary": ".claude/skills/graphify/SKILL.md 파일. 언어: markdown, 분류: docs.",
+      "tags": [
+        "docs",
+        "markdown",
+        ".claude"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "config:.codex/hooks.json",
+      "type": "config",
+      "name": "hooks.json",
+      "filePath": ".codex/hooks.json",
+      "summary": ".codex/hooks.json 파일. 언어: json, 분류: config.",
+      "tags": [
+        "config",
+        "json",
+        ".codex"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.graphifyignore",
+      "type": "file",
+      "name": ".graphifyignore",
+      "filePath": ".graphifyignore",
+      "summary": ".graphifyignore 파일. 언어: unknown, 분류: code.",
+      "tags": [
+        "code",
+        "unknown",
+        "."
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": ".understand-anything/.understandignore 파일. 언어: unknown, 분류: code.",
+      "tags": [
+        "code",
+        "unknown",
+        ".understand-anything"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".understand-anything/config.json",
+      "summary": ".understand-anything/config.json 파일. 언어: json, 분류: config.",
+      "tags": [
+        "config",
+        "json",
+        ".understand-anything"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:AGENTS.md",
+      "type": "document",
+      "name": "AGENTS.md",
+      "filePath": "AGENTS.md",
+      "summary": "AGENTS.md 파일. 언어: markdown, 분류: docs.",
+      "tags": [
+        "docs",
+        "markdown",
+        "."
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "type": "document",
+      "name": "2026-06-08-couple-tendency-product-spec.md",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 파일. 언어: markdown, 분류: docs.",
+      "tags": [
+        "docs",
+        "markdown",
+        "ai"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:ai/plans/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "ai/plans/README.md",
+      "summary": "ai/plans/README.md 파일. 언어: markdown, 분류: docs.",
+      "tags": [
+        "docs",
+        "markdown",
+        "ai"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:ai/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "ai/README.md",
+      "summary": "ai/README.md 파일. 언어: markdown, 분류: docs.",
+      "tags": [
+        "docs",
+        "markdown",
+        "ai"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "type": "document",
+      "name": "2026-06-08-couple-tendency-product-spec.md",
+      "filePath": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "summary": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md 파일. 언어: markdown, 분류: docs.",
+      "tags": [
+        "docs",
+        "markdown",
+        "ai"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:ai/session-logs/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "ai/session-logs/README.md",
+      "summary": "ai/session-logs/README.md 파일. 언어: markdown, 분류: docs.",
+      "tags": [
+        "docs",
+        "markdown",
+        "ai"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:CLAUDE.md",
+      "type": "document",
+      "name": "CLAUDE.md",
+      "filePath": "CLAUDE.md",
+      "summary": "CLAUDE.md 파일. 언어: markdown, 분류: docs.",
+      "tags": [
+        "docs",
+        "markdown",
+        "."
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#_graphify",
+      "type": "concept",
+      "name": "/graphify",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        7,
+        7
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 /graphify.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Usage",
+      "type": "concept",
+      "name": "Usage",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        11,
+        11
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Usage.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#What_graphify_is_for",
+      "type": "concept",
+      "name": "What graphify is for",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        37,
+        37
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 What graphify is for.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#What_You_Must_Do_When_Invoked",
+      "type": "concept",
+      "name": "What You Must Do When Invoked",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        52,
+        52
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 What You Must Do When Invoked.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_1_-_Ensure_graphify_is_installed",
+      "type": "concept",
+      "name": "Step 1 - Ensure graphify is installed",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        62,
+        62
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 1 - Ensure graphify is installed.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_2_-_Detect_files",
+      "type": "concept",
+      "name": "Step 2 - Detect files",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        102,
+        102
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 2 - Detect files.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_2.5_-_Transcribe_video___audio_files__only_if_video_files_detected_",
+      "type": "concept",
+      "name": "Step 2.5 - Transcribe video / audio files (only if video files detected)",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        133,
+        133
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 2.5 - Transcribe video / audio files (only if video files detected).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_3_-_Extract_entities_and_relationships",
+      "type": "concept",
+      "name": "Step 3 - Extract entities and relationships",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        177,
+        177
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 3 - Extract entities and relationships.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Part_A_-_Structural_extraction_for_code_files",
+      "type": "concept",
+      "name": "Part A - Structural extraction for code files",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        187,
+        187
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Part A - Structural extraction for code files.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Part_B_-_Semantic_extraction__parallel_subagents_",
+      "type": "concept",
+      "name": "Part B - Semantic extraction (parallel subagents)",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        213,
+        213
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Part B - Semantic extraction (parallel subagents).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Part_C_-_Merge_AST___semantic_into_final_extraction",
+      "type": "concept",
+      "name": "Part C - Merge AST + semantic into final extraction",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        414,
+        414
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Part C - Merge AST + semantic into final extraction.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_4_-_Build_graph__cluster__analyze__generate_outputs",
+      "type": "concept",
+      "name": "Step 4 - Build graph, cluster, analyze, generate outputs",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        450,
+        450
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 4 - Build graph, cluster, analyze, generate outputs.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_5_-_Label_communities",
+      "type": "concept",
+      "name": "Step 5 - Label communities",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        500,
+        500
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 5 - Label communities.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_6_-_Generate_Obsidian_vault__opt-in____HTML",
+      "type": "concept",
+      "name": "Step 6 - Generate Obsidian vault (opt-in) + HTML",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        540,
+        540
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 6 - Generate Obsidian vault (opt-in) + HTML.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_7_-_Neo4j_export__only_if_--neo4j_or_--neo4j-push_flag_",
+      "type": "concept",
+      "name": "Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag)",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        600,
+        600
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_7b_-_SVG_export__only_if_--svg_flag_",
+      "type": "concept",
+      "name": "Step 7b - SVG export (only if --svg flag)",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        639,
+        639
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 7b - SVG export (only if --svg flag).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_7c_-_GraphML_export__only_if_--graphml_flag_",
+      "type": "concept",
+      "name": "Step 7c - GraphML export (only if --graphml flag)",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        661,
+        661
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 7c - GraphML export (only if --graphml flag).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_7d_-_MCP_server__only_if_--mcp_flag_",
+      "type": "concept",
+      "name": "Step 7d - MCP server (only if --mcp flag)",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        681,
+        681
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 7d - MCP server (only if --mcp flag).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_8_-_Token_reduction_benchmark__only_if_total_words___5000_",
+      "type": "concept",
+      "name": "Step 8 - Token reduction benchmark (only if total_words > 5000)",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        701,
+        701
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 8 - Token reduction benchmark (only if total_words > 5000).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Step_9_-_Save_manifest__update_cost_tracker__clean_up__and_report",
+      "type": "concept",
+      "name": "Step 9 - Save manifest, update cost tracker, clean up, and report",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        721,
+        721
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Step 9 - Save manifest, update cost tracker, clean up, and report.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#For_--update__incremental_re-extraction_",
+      "type": "concept",
+      "name": "For --update (incremental re-extraction)",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        793,
+        793
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 For --update (incremental re-extraction).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#For_--cluster-only",
+      "type": "concept",
+      "name": "For --cluster-only",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        912,
+        912
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 For --cluster-only.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#For__graphify_query",
+      "type": "concept",
+      "name": "For /graphify query",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        959,
+        959
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 For /graphify query.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#For__graphify_path",
+      "type": "concept",
+      "name": "For /graphify path",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        1086,
+        1086
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 For /graphify path.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#For__graphify_explain",
+      "type": "concept",
+      "name": "For /graphify explain",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        1159,
+        1159
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 For /graphify explain.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#For__graphify_add",
+      "type": "concept",
+      "name": "For /graphify add",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        1225,
+        1225
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 For /graphify add.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#For_--watch",
+      "type": "concept",
+      "name": "For --watch",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        1258,
+        1258
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 For --watch.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#For_git_commit_hook",
+      "type": "concept",
+      "name": "For git commit hook",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        1279,
+        1279
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 For git commit hook.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#For_native_CLAUDE.md_integration",
+      "type": "concept",
+      "name": "For native CLAUDE.md integration",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        1295,
+        1295
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 For native CLAUDE.md integration.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.agents/skills/graphify/SKILL.md#Honesty_Rules",
+      "type": "concept",
+      "name": "Honesty Rules",
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "lineRange": [
+        1311,
+        1311
+      ],
+      "summary": ".agents/skills/graphify/SKILL.md 문서의 섹션 Honesty Rules.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/CLAUDE.md#graphify",
+      "type": "concept",
+      "name": "graphify",
+      "filePath": ".claude/CLAUDE.md",
+      "lineRange": [
+        1,
+        1
+      ],
+      "summary": ".claude/CLAUDE.md 문서의 섹션 graphify.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/settings.json#hooks",
+      "type": "concept",
+      "name": "hooks",
+      "filePath": ".claude/settings.json",
+      "lineRange": [
+        2,
+        2
+      ],
+      "summary": ".claude/settings.json 문서의 섹션 hooks.",
+      "tags": [
+        "section",
+        "json"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#_graphify",
+      "type": "concept",
+      "name": "/graphify",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        7,
+        7
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 /graphify.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Usage",
+      "type": "concept",
+      "name": "Usage",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        11,
+        11
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Usage.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#What_graphify_is_for",
+      "type": "concept",
+      "name": "What graphify is for",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        44,
+        44
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 What graphify is for.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#What_You_Must_Do_When_Invoked",
+      "type": "concept",
+      "name": "What You Must Do When Invoked",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        48,
+        48
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 What You Must Do When Invoked.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_0_-_Clone_GitHub_repo_s___only_if_a_GitHub_URL_was_given_",
+      "type": "concept",
+      "name": "Step 0 - Clone GitHub repo(s) (only if a GitHub URL was given)",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        60,
+        60
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 0 - Clone GitHub repo(s) (only if a GitHub URL was given).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_1_-_Ensure_graphify_is_installed",
+      "type": "concept",
+      "name": "Step 1 - Ensure graphify is installed",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        103,
+        103
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 1 - Ensure graphify is installed.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_2_-_Detect_files",
+      "type": "concept",
+      "name": "Step 2 - Detect files",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        145,
+        145
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 2 - Detect files.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_2.5_-_Transcribe_video___audio_files__only_if_video_files_detected_",
+      "type": "concept",
+      "name": "Step 2.5 - Transcribe video / audio files (only if video files detected)",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        182,
+        182
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 2.5 - Transcribe video / audio files (only if video files detected).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_3_-_Extract_entities_and_relationships",
+      "type": "concept",
+      "name": "Step 3 - Extract entities and relationships",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        227,
+        227
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 3 - Extract entities and relationships.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Part_A_-_Structural_extraction_for_code_files",
+      "type": "concept",
+      "name": "Part A - Structural extraction for code files",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        244,
+        244
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Part A - Structural extraction for code files.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Part_B_-_Semantic_extraction__parallel_subagents_",
+      "type": "concept",
+      "name": "Part B - Semantic extraction (parallel subagents)",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        270,
+        270
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Part B - Semantic extraction (parallel subagents).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Part_C_-_Merge_AST___semantic_into_final_extraction",
+      "type": "concept",
+      "name": "Part C - Merge AST + semantic into final extraction",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        478,
+        478
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Part C - Merge AST + semantic into final extraction.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_4_-_Build_graph__cluster__analyze__generate_outputs",
+      "type": "concept",
+      "name": "Step 4 - Build graph, cluster, analyze, generate outputs",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        512,
+        512
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 4 - Build graph, cluster, analyze, generate outputs.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_5_-_Label_communities",
+      "type": "concept",
+      "name": "Step 5 - Label communities",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        564,
+        564
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 5 - Label communities.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_6_-_Generate_Obsidian_vault__opt-in____HTML",
+      "type": "concept",
+      "name": "Step 6 - Generate Obsidian vault (opt-in) + HTML",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        604,
+        604
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 6 - Generate Obsidian vault (opt-in) + HTML.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_6b_-_Wiki__only_if_--wiki_flag_",
+      "type": "concept",
+      "name": "Step 6b - Wiki (only if --wiki flag)",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        624,
+        624
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 6b - Wiki (only if --wiki flag).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_7_-_Neo4j_export__only_if_--neo4j_or_--neo4j-push_flag_",
+      "type": "concept",
+      "name": "Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag)",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        634,
+        634
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_7b_-_SVG_export__only_if_--svg_flag_",
+      "type": "concept",
+      "name": "Step 7b - SVG export (only if --svg flag)",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        650,
+        650
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 7b - SVG export (only if --svg flag).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_7c_-_GraphML_export__only_if_--graphml_flag_",
+      "type": "concept",
+      "name": "Step 7c - GraphML export (only if --graphml flag)",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        656,
+        656
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 7c - GraphML export (only if --graphml flag).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_7d_-_MCP_server__only_if_--mcp_flag_",
+      "type": "concept",
+      "name": "Step 7d - MCP server (only if --mcp flag)",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        662,
+        662
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 7d - MCP server (only if --mcp flag).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_8_-_Token_reduction_benchmark__only_if_total_words___5000_",
+      "type": "concept",
+      "name": "Step 8 - Token reduction benchmark (only if total_words > 5000)",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        682,
+        682
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 8 - Token reduction benchmark (only if total_words > 5000).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_9_-_Save_manifest__update_cost_tracker__clean_up__and_report",
+      "type": "concept",
+      "name": "Step 9 - Save manifest, update cost tracker, clean up, and report",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        694,
+        694
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 9 - Save manifest, update cost tracker, clean up, and report.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Interpreter_guard_for_subcommands",
+      "type": "concept",
+      "name": "Interpreter guard for subcommands",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        768,
+        768
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Interpreter guard for subcommands.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#For_--update__incremental_re-extraction_",
+      "type": "concept",
+      "name": "For --update (incremental re-extraction)",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        786,
+        786
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 For --update (incremental re-extraction).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#For_--cluster-only",
+      "type": "concept",
+      "name": "For --cluster-only",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        947,
+        947
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 For --cluster-only.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#For__graphify_query",
+      "type": "concept",
+      "name": "For /graphify query",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        959,
+        959
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 For /graphify query.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_0___Constrained_query_expansion__REQUIRED_before_traversal_",
+      "type": "concept",
+      "name": "Step 0 — Constrained query expansion (REQUIRED before traversal)",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        968,
+        968
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 0 — Constrained query expansion (REQUIRED before traversal).",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Step_1___Traversal",
+      "type": "concept",
+      "name": "Step 1 — Traversal",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        1006,
+        1006
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Step 1 — Traversal.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#For__graphify_path",
+      "type": "concept",
+      "name": "For /graphify path",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        1027,
+        1027
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 For /graphify path.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#For__graphify_explain",
+      "type": "concept",
+      "name": "For /graphify explain",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        1045,
+        1045
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 For /graphify explain.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#For__graphify_add",
+      "type": "concept",
+      "name": "For /graphify add",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        1063,
+        1063
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 For /graphify add.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#For_--watch",
+      "type": "concept",
+      "name": "For --watch",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        1097,
+        1097
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 For --watch.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#For_git_commit_hook",
+      "type": "concept",
+      "name": "For git commit hook",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        1118,
+        1118
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 For git commit hook.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#For_native_CLAUDE.md_integration",
+      "type": "concept",
+      "name": "For native CLAUDE.md integration",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        1134,
+        1134
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 For native CLAUDE.md integration.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.claude/skills/graphify/SKILL.md#Honesty_Rules",
+      "type": "concept",
+      "name": "Honesty Rules",
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "lineRange": [
+        1150,
+        1150
+      ],
+      "summary": ".claude/skills/graphify/SKILL.md 문서의 섹션 Honesty Rules.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.codex/hooks.json#hooks",
+      "type": "concept",
+      "name": "hooks",
+      "filePath": ".codex/hooks.json",
+      "lineRange": [
+        2,
+        2
+      ],
+      "summary": ".codex/hooks.json 문서의 섹션 hooks.",
+      "tags": [
+        "section",
+        "json"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.understand-anything/config.json#autoUpdate",
+      "type": "concept",
+      "name": "autoUpdate",
+      "filePath": ".understand-anything/config.json",
+      "lineRange": [
+        2,
+        2
+      ],
+      "summary": ".understand-anything/config.json 문서의 섹션 autoUpdate.",
+      "tags": [
+        "section",
+        "json"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.understand-anything/config.json#language",
+      "type": "concept",
+      "name": "language",
+      "filePath": ".understand-anything/config.json",
+      "lineRange": [
+        3,
+        3
+      ],
+      "summary": ".understand-anything/config.json 문서의 섹션 language.",
+      "tags": [
+        "section",
+        "json"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:.understand-anything/config.json#outputLanguage",
+      "type": "concept",
+      "name": "outputLanguage",
+      "filePath": ".understand-anything/config.json",
+      "lineRange": [
+        4,
+        4
+      ],
+      "summary": ".understand-anything/config.json 문서의 섹션 outputLanguage.",
+      "tags": [
+        "section",
+        "json"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:AGENTS.md#Shared_Knowledge_Sources",
+      "type": "concept",
+      "name": "Shared Knowledge Sources",
+      "filePath": "AGENTS.md",
+      "lineRange": [
+        2,
+        2
+      ],
+      "summary": "AGENTS.md 문서의 섹션 Shared Knowledge Sources.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:AGENTS.md#understand-anything",
+      "type": "concept",
+      "name": "understand-anything",
+      "filePath": "AGENTS.md",
+      "lineRange": [
+        11,
+        11
+      ],
+      "summary": "AGENTS.md 문서의 섹션 understand-anything.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:AGENTS.md#Project_Plans_and_Session_Logs",
+      "type": "concept",
+      "name": "Project Plans and Session Logs",
+      "filePath": "AGENTS.md",
+      "lineRange": [
+        20,
+        20
+      ],
+      "summary": "AGENTS.md 문서의 섹션 Project Plans and Session Logs.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:AGENTS.md#App_Platform_Portability",
+      "type": "concept",
+      "name": "App Platform Portability",
+      "filePath": "AGENTS.md",
+      "lineRange": [
+        37,
+        37
+      ],
+      "summary": "AGENTS.md 문서의 섹션 App Platform Portability.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:AGENTS.md#graphify",
+      "type": "concept",
+      "name": "graphify",
+      "filePath": "AGENTS.md",
+      "lineRange": [
+        55,
+        55
+      ],
+      "summary": "AGENTS.md 문서의 섹션 graphify.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#________________MVP______",
+      "type": "concept",
+      "name": "커플 성향지도 제품 기획 및 MVP 구현 기준",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        1,
+        1
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 커플 성향지도 제품 기획 및 MVP 구현 기준.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#1._________",
+      "type": "concept",
+      "name": "1. 제품 핵심 정의",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        7,
+        7
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 1. 제품 핵심 정의.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#2._____",
+      "type": "concept",
+      "name": "2. 포지셔닝",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        27,
+        27
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 2. 포지셔닝.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#3.______________",
+      "type": "concept",
+      "name": "3. 대상 사용자와 관계 상태",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        60,
+        60
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 3. 대상 사용자와 관계 상태.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#4._______",
+      "type": "concept",
+      "name": "4. 참가자 구조",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        85,
+        85
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 4. 참가자 구조.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5._______",
+      "type": "concept",
+      "name": "5. 방법론 기준",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        113,
+        113
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 5. 방법론 기준.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5.1_______",
+      "type": "concept",
+      "name": "5.1 관계 에너지",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        117,
+        117
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 5.1 관계 에너지.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5.2_________",
+      "type": "concept",
+      "name": "5.2 가까워지는 방식",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        123,
+        123
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 5.2 가까워지는 방식.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5.3_________",
+      "type": "concept",
+      "name": "5.3 마음 표현 방식",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        129,
+        129
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 5.3 마음 표현 방식.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5.4_________",
+      "type": "concept",
+      "name": "5.4 갈등 회복 방식",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        135,
+        135
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 5.4 갈등 회복 방식.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#6.____________",
+      "type": "concept",
+      "name": "6. 문항 수와 작성 기준",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        141,
+        141
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 6. 문항 수와 작성 기준.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7._MVP_______",
+      "type": "concept",
+      "name": "7. MVP 사용자 흐름",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        188,
+        188
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 7. MVP 사용자 흐름.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.1______",
+      "type": "concept",
+      "name": "7.1 시작 화면",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        190,
+        190
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 7.1 시작 화면.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.2__________",
+      "type": "concept",
+      "name": "7.2 안전/참고용 안내",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        198,
+        198
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 7.2 안전/참고용 안내.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.3_________",
+      "type": "concept",
+      "name": "7.3 관계 상태 선택",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        211,
+        211
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 7.3 관계 상태 선택.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.4__________",
+      "type": "concept",
+      "name": "7.4 참가자 정보 입력",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        215,
+        215
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 7.4 참가자 정보 입력.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.5_participantA____",
+      "type": "concept",
+      "name": "7.5 participantA 테스트",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        226,
+        226
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 7.5 participantA 테스트.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.6_participantA______",
+      "type": "concept",
+      "name": "7.6 participantA 답변 봉인",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        233,
+        233
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 7.6 participantA 답변 봉인.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.7_________",
+      "type": "concept",
+      "name": "7.7 폰 넘기기 화면",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        248,
+        248
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 7.7 폰 넘기기 화면.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.8_participantB____",
+      "type": "concept",
+      "name": "7.8 participantB 테스트",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        256,
+        256
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 7.8 participantB 테스트.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.9_________",
+      "type": "concept",
+      "name": "7.9 함께 결과 열기",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        261,
+        261
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 7.9 함께 결과 열기.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.10__________",
+      "type": "concept",
+      "name": "7.10 커플 비교 리포트",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        273,
+        273
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 7.10 커플 비교 리포트.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#8.__________",
+      "type": "concept",
+      "name": "8. 결과 리포트 원칙",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        286,
+        286
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 8. 결과 리포트 원칙.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#9.____________",
+      "type": "concept",
+      "name": "9. 결과 저장/삭제 정책",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        339,
+        339
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 9. 결과 저장/삭제 정책.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#10._______________",
+      "type": "concept",
+      "name": "10. 개인정보와 원답 공개 원칙",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        355,
+        355
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 10. 개인정보와 원답 공개 원칙.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#11._______________",
+      "type": "concept",
+      "name": "11. 중단/뒤로가기/재시작 정책",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        373,
+        373
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 11. 중단/뒤로가기/재시작 정책.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#12._________",
+      "type": "concept",
+      "name": "12. 공유 카드 정책",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        390,
+        390
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 12. 공유 카드 정책.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#13._MVP______",
+      "type": "concept",
+      "name": "13. MVP 포함 기능",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        410,
+        410
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 13. MVP 포함 기능.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#14._MVP______",
+      "type": "concept",
+      "name": "14. MVP 제외 기능",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        441,
+        441
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 14. MVP 제외 기능.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#15.______________",
+      "type": "concept",
+      "name": "15. 예상 화면 목록과 라우팅",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        462,
+        462
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 15. 예상 화면 목록과 라우팅.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#16._________",
+      "type": "concept",
+      "name": "16. 상태 관리 구조",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        480,
+        480
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 16. 상태 관리 구조.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#17.__________",
+      "type": "concept",
+      "name": "17. 문항 데이터 구조",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        531,
+        531
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 17. 문항 데이터 구조.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#18.______________",
+      "type": "concept",
+      "name": "18. 결과 계산과 리포트 생성",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        562,
+        562
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 18. 결과 계산과 리포트 생성.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#19._i18n___",
+      "type": "concept",
+      "name": "19. i18n 기준",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        594,
+        594
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 19. i18n 기준.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#20.___________",
+      "type": "concept",
+      "name": "20. 플랫폼/어댑터 기준",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        628,
+        628
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 20. 플랫폼/어댑터 기준.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#21.__________",
+      "type": "concept",
+      "name": "21. 보안/백엔드 기준",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        660,
+        660
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 21. 보안/백엔드 기준.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#22._______",
+      "type": "concept",
+      "name": "22. 수익화 방향",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        669,
+        669
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 22. 수익화 방향.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#23.______",
+      "type": "concept",
+      "name": "23. 검증 기준",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        691,
+        691
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 23. 검증 기준.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#24.________",
+      "type": "concept",
+      "name": "24. 남은 결정사항",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        709,
+        709
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 24. 남은 결정사항.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#25._________",
+      "type": "concept",
+      "name": "25. 다음 구현 단계",
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        720,
+        720
+      ],
+      "summary": "ai/plans/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 25. 다음 구현 단계.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/plans/README.md#Plans",
+      "type": "concept",
+      "name": "Plans",
+      "filePath": "ai/plans/README.md",
+      "lineRange": [
+        1,
+        1
+      ],
+      "summary": "ai/plans/README.md 문서의 섹션 Plans.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/README.md#AI_Work_Notes",
+      "type": "concept",
+      "name": "AI Work Notes",
+      "filePath": "ai/README.md",
+      "lineRange": [
+        1,
+        1
+      ],
+      "summary": "ai/README.md 문서의 섹션 AI Work Notes.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Session_Log:_________________",
+      "type": "concept",
+      "name": "Session Log: 커플 성향지도 제품 스펙 작성",
+      "filePath": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        1,
+        1
+      ],
+      "summary": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 Session Log: 커플 성향지도 제품 스펙 작성.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#User_Request",
+      "type": "concept",
+      "name": "User Request",
+      "filePath": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        6,
+        6
+      ],
+      "summary": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 User Request.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Decisions_Made",
+      "type": "concept",
+      "name": "Decisions Made",
+      "filePath": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        10,
+        10
+      ],
+      "summary": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 Decisions Made.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Files_Changed",
+      "type": "concept",
+      "name": "Files Changed",
+      "filePath": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        22,
+        22
+      ],
+      "summary": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 Files Changed.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Commands___Verification",
+      "type": "concept",
+      "name": "Commands / Verification",
+      "filePath": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        30,
+        30
+      ],
+      "summary": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 Commands / Verification.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Remaining_Risks",
+      "type": "concept",
+      "name": "Remaining Risks",
+      "filePath": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        38,
+        38
+      ],
+      "summary": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 Remaining Risks.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Next_Steps",
+      "type": "concept",
+      "name": "Next Steps",
+      "filePath": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        45,
+        45
+      ],
+      "summary": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 Next Steps.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Knowledge_Promotion",
+      "type": "concept",
+      "name": "Knowledge Promotion",
+      "filePath": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "lineRange": [
+        52,
+        52
+      ],
+      "summary": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md 문서의 섹션 Knowledge Promotion.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:ai/session-logs/README.md#Session_Logs",
+      "type": "concept",
+      "name": "Session Logs",
+      "filePath": "ai/session-logs/README.md",
+      "lineRange": [
+        1,
+        1
+      ],
+      "summary": "ai/session-logs/README.md 문서의 섹션 Session Logs.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:CLAUDE.md#Shared_Knowledge_Sources",
+      "type": "concept",
+      "name": "Shared Knowledge Sources",
+      "filePath": "CLAUDE.md",
+      "lineRange": [
+        2,
+        2
+      ],
+      "summary": "CLAUDE.md 문서의 섹션 Shared Knowledge Sources.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:CLAUDE.md#understand-anything",
+      "type": "concept",
+      "name": "understand-anything",
+      "filePath": "CLAUDE.md",
+      "lineRange": [
+        11,
+        11
+      ],
+      "summary": "CLAUDE.md 문서의 섹션 understand-anything.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:CLAUDE.md#Project_Plans_and_Session_Logs",
+      "type": "concept",
+      "name": "Project Plans and Session Logs",
+      "filePath": "CLAUDE.md",
+      "lineRange": [
+        20,
+        20
+      ],
+      "summary": "CLAUDE.md 문서의 섹션 Project Plans and Session Logs.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:CLAUDE.md#App_Platform_Portability",
+      "type": "concept",
+      "name": "App Platform Portability",
+      "filePath": "CLAUDE.md",
+      "lineRange": [
+        37,
+        37
+      ],
+      "summary": "CLAUDE.md 문서의 섹션 App Platform Portability.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "concept:CLAUDE.md#graphify",
+      "type": "concept",
+      "name": "graphify",
+      "filePath": "CLAUDE.md",
+      "lineRange": [
+        55,
+        55
+      ],
+      "summary": "CLAUDE.md 문서의 섹션 graphify.",
+      "tags": [
+        "section",
+        "markdown"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#_graphify",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section /graphify",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Usage",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Usage",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#What_graphify_is_for",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section What graphify is for",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#What_You_Must_Do_When_Invoked",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section What You Must Do When Invoked",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_1_-_Ensure_graphify_is_installed",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 1 - Ensure graphify is installed",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_2_-_Detect_files",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 2 - Detect files",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_2.5_-_Transcribe_video___audio_files__only_if_video_files_detected_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 2.5 - Transcribe video / audio files (only if video files detected)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_3_-_Extract_entities_and_relationships",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 3 - Extract entities and relationships",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Part_A_-_Structural_extraction_for_code_files",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Part A - Structural extraction for code files",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Part_B_-_Semantic_extraction__parallel_subagents_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Part B - Semantic extraction (parallel subagents)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Part_C_-_Merge_AST___semantic_into_final_extraction",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Part C - Merge AST + semantic into final extraction",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_4_-_Build_graph__cluster__analyze__generate_outputs",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 4 - Build graph, cluster, analyze, generate outputs",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_5_-_Label_communities",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 5 - Label communities",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_6_-_Generate_Obsidian_vault__opt-in____HTML",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 6 - Generate Obsidian vault (opt-in) + HTML",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_7_-_Neo4j_export__only_if_--neo4j_or_--neo4j-push_flag_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_7b_-_SVG_export__only_if_--svg_flag_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 7b - SVG export (only if --svg flag)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_7c_-_GraphML_export__only_if_--graphml_flag_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 7c - GraphML export (only if --graphml flag)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_7d_-_MCP_server__only_if_--mcp_flag_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 7d - MCP server (only if --mcp flag)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_8_-_Token_reduction_benchmark__only_if_total_words___5000_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 8 - Token reduction benchmark (only if total_words > 5000)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Step_9_-_Save_manifest__update_cost_tracker__clean_up__and_report",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Step 9 - Save manifest, update cost tracker, clean up, and report",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#For_--update__incremental_re-extraction_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section For --update (incremental re-extraction)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#For_--cluster-only",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section For --cluster-only",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#For__graphify_query",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section For /graphify query",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#For__graphify_path",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section For /graphify path",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#For__graphify_explain",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section For /graphify explain",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#For__graphify_add",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section For /graphify add",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#For_--watch",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section For --watch",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#For_git_commit_hook",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section For git commit hook",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#For_native_CLAUDE.md_integration",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section For native CLAUDE.md integration",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.agents/skills/graphify/SKILL.md",
+      "target": "concept:.agents/skills/graphify/SKILL.md#Honesty_Rules",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".agents/skills/graphify/SKILL.md contains section Honesty Rules",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/CLAUDE.md",
+      "target": "concept:.claude/CLAUDE.md#graphify",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/CLAUDE.md contains section graphify",
+      "weight": 0.5
+    },
+    {
+      "source": "config:.claude/settings.json",
+      "target": "concept:.claude/settings.json#hooks",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/settings.json contains section hooks",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#_graphify",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section /graphify",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Usage",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Usage",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#What_graphify_is_for",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section What graphify is for",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#What_You_Must_Do_When_Invoked",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section What You Must Do When Invoked",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_0_-_Clone_GitHub_repo_s___only_if_a_GitHub_URL_was_given_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 0 - Clone GitHub repo(s) (only if a GitHub URL was given)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_1_-_Ensure_graphify_is_installed",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 1 - Ensure graphify is installed",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_2_-_Detect_files",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 2 - Detect files",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_2.5_-_Transcribe_video___audio_files__only_if_video_files_detected_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 2.5 - Transcribe video / audio files (only if video files detected)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_3_-_Extract_entities_and_relationships",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 3 - Extract entities and relationships",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Part_A_-_Structural_extraction_for_code_files",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Part A - Structural extraction for code files",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Part_B_-_Semantic_extraction__parallel_subagents_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Part B - Semantic extraction (parallel subagents)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Part_C_-_Merge_AST___semantic_into_final_extraction",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Part C - Merge AST + semantic into final extraction",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_4_-_Build_graph__cluster__analyze__generate_outputs",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 4 - Build graph, cluster, analyze, generate outputs",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_5_-_Label_communities",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 5 - Label communities",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_6_-_Generate_Obsidian_vault__opt-in____HTML",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 6 - Generate Obsidian vault (opt-in) + HTML",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_6b_-_Wiki__only_if_--wiki_flag_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 6b - Wiki (only if --wiki flag)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_7_-_Neo4j_export__only_if_--neo4j_or_--neo4j-push_flag_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_7b_-_SVG_export__only_if_--svg_flag_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 7b - SVG export (only if --svg flag)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_7c_-_GraphML_export__only_if_--graphml_flag_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 7c - GraphML export (only if --graphml flag)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_7d_-_MCP_server__only_if_--mcp_flag_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 7d - MCP server (only if --mcp flag)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_8_-_Token_reduction_benchmark__only_if_total_words___5000_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 8 - Token reduction benchmark (only if total_words > 5000)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_9_-_Save_manifest__update_cost_tracker__clean_up__and_report",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 9 - Save manifest, update cost tracker, clean up, and report",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Interpreter_guard_for_subcommands",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Interpreter guard for subcommands",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#For_--update__incremental_re-extraction_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section For --update (incremental re-extraction)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#For_--cluster-only",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section For --cluster-only",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#For__graphify_query",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section For /graphify query",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_0___Constrained_query_expansion__REQUIRED_before_traversal_",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 0 — Constrained query expansion (REQUIRED before traversal)",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Step_1___Traversal",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Step 1 — Traversal",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#For__graphify_path",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section For /graphify path",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#For__graphify_explain",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section For /graphify explain",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#For__graphify_add",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section For /graphify add",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#For_--watch",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section For --watch",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#For_git_commit_hook",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section For git commit hook",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#For_native_CLAUDE.md_integration",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section For native CLAUDE.md integration",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.claude/skills/graphify/SKILL.md",
+      "target": "concept:.claude/skills/graphify/SKILL.md#Honesty_Rules",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".claude/skills/graphify/SKILL.md contains section Honesty Rules",
+      "weight": 0.5
+    },
+    {
+      "source": "config:.codex/hooks.json",
+      "target": "concept:.codex/hooks.json#hooks",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".codex/hooks.json contains section hooks",
+      "weight": 0.5
+    },
+    {
+      "source": "config:.understand-anything/config.json",
+      "target": "concept:.understand-anything/config.json#autoUpdate",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".understand-anything/config.json contains section autoUpdate",
+      "weight": 0.5
+    },
+    {
+      "source": "config:.understand-anything/config.json",
+      "target": "concept:.understand-anything/config.json#language",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".understand-anything/config.json contains section language",
+      "weight": 0.5
+    },
+    {
+      "source": "config:.understand-anything/config.json",
+      "target": "concept:.understand-anything/config.json#outputLanguage",
+      "type": "contains",
+      "direction": "forward",
+      "description": ".understand-anything/config.json contains section outputLanguage",
+      "weight": 0.5
+    },
+    {
+      "source": "document:AGENTS.md",
+      "target": "concept:AGENTS.md#Shared_Knowledge_Sources",
+      "type": "contains",
+      "direction": "forward",
+      "description": "AGENTS.md contains section Shared Knowledge Sources",
+      "weight": 0.5
+    },
+    {
+      "source": "document:AGENTS.md",
+      "target": "concept:AGENTS.md#understand-anything",
+      "type": "contains",
+      "direction": "forward",
+      "description": "AGENTS.md contains section understand-anything",
+      "weight": 0.5
+    },
+    {
+      "source": "document:AGENTS.md",
+      "target": "concept:AGENTS.md#Project_Plans_and_Session_Logs",
+      "type": "contains",
+      "direction": "forward",
+      "description": "AGENTS.md contains section Project Plans and Session Logs",
+      "weight": 0.5
+    },
+    {
+      "source": "document:AGENTS.md",
+      "target": "concept:AGENTS.md#App_Platform_Portability",
+      "type": "contains",
+      "direction": "forward",
+      "description": "AGENTS.md contains section App Platform Portability",
+      "weight": 0.5
+    },
+    {
+      "source": "document:AGENTS.md",
+      "target": "concept:AGENTS.md#graphify",
+      "type": "contains",
+      "direction": "forward",
+      "description": "AGENTS.md contains section graphify",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#________________MVP______",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 커플 성향지도 제품 기획 및 MVP 구현 기준",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#1._________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 1. 제품 핵심 정의",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#2._____",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 2. 포지셔닝",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#3.______________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 3. 대상 사용자와 관계 상태",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#4._______",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 4. 참가자 구조",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5._______",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 5. 방법론 기준",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5.1_______",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 5.1 관계 에너지",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5.2_________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 5.2 가까워지는 방식",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5.3_________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 5.3 마음 표현 방식",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5.4_________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 5.4 갈등 회복 방식",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#6.____________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 6. 문항 수와 작성 기준",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7._MVP_______",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 7. MVP 사용자 흐름",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.1______",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 7.1 시작 화면",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.2__________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 7.2 안전/참고용 안내",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.3_________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 7.3 관계 상태 선택",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.4__________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 7.4 참가자 정보 입력",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.5_participantA____",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 7.5 participantA 테스트",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.6_participantA______",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 7.6 participantA 답변 봉인",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.7_________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 7.7 폰 넘기기 화면",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.8_participantB____",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 7.8 participantB 테스트",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.9_________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 7.9 함께 결과 열기",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.10__________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 7.10 커플 비교 리포트",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#8.__________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 8. 결과 리포트 원칙",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#9.____________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 9. 결과 저장/삭제 정책",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#10._______________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 10. 개인정보와 원답 공개 원칙",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#11._______________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 11. 중단/뒤로가기/재시작 정책",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#12._________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 12. 공유 카드 정책",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#13._MVP______",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 13. MVP 포함 기능",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#14._MVP______",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 14. MVP 제외 기능",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#15.______________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 15. 예상 화면 목록과 라우팅",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#16._________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 16. 상태 관리 구조",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#17.__________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 17. 문항 데이터 구조",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#18.______________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 18. 결과 계산과 리포트 생성",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#19._i18n___",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 19. i18n 기준",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#20.___________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 20. 플랫폼/어댑터 기준",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#21.__________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 21. 보안/백엔드 기준",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#22._______",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 22. 수익화 방향",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#23.______",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 23. 검증 기준",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#24.________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 24. 남은 결정사항",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#25._________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/2026-06-08-couple-tendency-product-spec.md contains section 25. 다음 구현 단계",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/plans/README.md",
+      "target": "concept:ai/plans/README.md#Plans",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/plans/README.md contains section Plans",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/README.md",
+      "target": "concept:ai/README.md#AI_Work_Notes",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/README.md contains section AI Work Notes",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Session_Log:_________________",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md contains section Session Log: 커플 성향지도 제품 스펙 작성",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#User_Request",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md contains section User Request",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Decisions_Made",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md contains section Decisions Made",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Files_Changed",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md contains section Files Changed",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Commands___Verification",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md contains section Commands / Verification",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Remaining_Risks",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md contains section Remaining Risks",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Next_Steps",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md contains section Next Steps",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "target": "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Knowledge_Promotion",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md contains section Knowledge Promotion",
+      "weight": 0.5
+    },
+    {
+      "source": "document:ai/session-logs/README.md",
+      "target": "concept:ai/session-logs/README.md#Session_Logs",
+      "type": "contains",
+      "direction": "forward",
+      "description": "ai/session-logs/README.md contains section Session Logs",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CLAUDE.md",
+      "target": "concept:CLAUDE.md#Shared_Knowledge_Sources",
+      "type": "contains",
+      "direction": "forward",
+      "description": "CLAUDE.md contains section Shared Knowledge Sources",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CLAUDE.md",
+      "target": "concept:CLAUDE.md#understand-anything",
+      "type": "contains",
+      "direction": "forward",
+      "description": "CLAUDE.md contains section understand-anything",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CLAUDE.md",
+      "target": "concept:CLAUDE.md#Project_Plans_and_Session_Logs",
+      "type": "contains",
+      "direction": "forward",
+      "description": "CLAUDE.md contains section Project Plans and Session Logs",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CLAUDE.md",
+      "target": "concept:CLAUDE.md#App_Platform_Portability",
+      "type": "contains",
+      "direction": "forward",
+      "description": "CLAUDE.md contains section App Platform Portability",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CLAUDE.md",
+      "target": "concept:CLAUDE.md#graphify",
+      "type": "contains",
+      "direction": "forward",
+      "description": "CLAUDE.md contains section graphify",
+      "weight": 0.5
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:source",
+      "name": "소스 코드",
+      "description": "주요 제품 코드와 스크립트",
+      "nodeIds": [
+        "concept:.agents/skills/graphify/SKILL.md#For_--cluster-only",
+        "concept:.agents/skills/graphify/SKILL.md#For_--update__incremental_re-extraction_",
+        "concept:.agents/skills/graphify/SKILL.md#For_--watch",
+        "concept:.agents/skills/graphify/SKILL.md#For__graphify_add",
+        "concept:.agents/skills/graphify/SKILL.md#For__graphify_explain",
+        "concept:.agents/skills/graphify/SKILL.md#For__graphify_path",
+        "concept:.agents/skills/graphify/SKILL.md#For__graphify_query",
+        "concept:.agents/skills/graphify/SKILL.md#For_git_commit_hook",
+        "concept:.agents/skills/graphify/SKILL.md#For_native_CLAUDE.md_integration",
+        "concept:.agents/skills/graphify/SKILL.md#Honesty_Rules",
+        "concept:.agents/skills/graphify/SKILL.md#Part_A_-_Structural_extraction_for_code_files",
+        "concept:.agents/skills/graphify/SKILL.md#Part_B_-_Semantic_extraction__parallel_subagents_",
+        "concept:.agents/skills/graphify/SKILL.md#Part_C_-_Merge_AST___semantic_into_final_extraction",
+        "concept:.agents/skills/graphify/SKILL.md#Step_1_-_Ensure_graphify_is_installed",
+        "concept:.agents/skills/graphify/SKILL.md#Step_2.5_-_Transcribe_video___audio_files__only_if_video_files_detected_",
+        "concept:.agents/skills/graphify/SKILL.md#Step_2_-_Detect_files",
+        "concept:.agents/skills/graphify/SKILL.md#Step_3_-_Extract_entities_and_relationships",
+        "concept:.agents/skills/graphify/SKILL.md#Step_4_-_Build_graph__cluster__analyze__generate_outputs",
+        "concept:.agents/skills/graphify/SKILL.md#Step_5_-_Label_communities",
+        "concept:.agents/skills/graphify/SKILL.md#Step_6_-_Generate_Obsidian_vault__opt-in____HTML",
+        "concept:.agents/skills/graphify/SKILL.md#Step_7_-_Neo4j_export__only_if_--neo4j_or_--neo4j-push_flag_",
+        "concept:.agents/skills/graphify/SKILL.md#Step_7b_-_SVG_export__only_if_--svg_flag_",
+        "concept:.agents/skills/graphify/SKILL.md#Step_7c_-_GraphML_export__only_if_--graphml_flag_",
+        "concept:.agents/skills/graphify/SKILL.md#Step_7d_-_MCP_server__only_if_--mcp_flag_",
+        "concept:.agents/skills/graphify/SKILL.md#Step_8_-_Token_reduction_benchmark__only_if_total_words___5000_",
+        "concept:.agents/skills/graphify/SKILL.md#Step_9_-_Save_manifest__update_cost_tracker__clean_up__and_report",
+        "concept:.agents/skills/graphify/SKILL.md#Usage",
+        "concept:.agents/skills/graphify/SKILL.md#What_You_Must_Do_When_Invoked",
+        "concept:.agents/skills/graphify/SKILL.md#What_graphify_is_for",
+        "concept:.agents/skills/graphify/SKILL.md#_graphify",
+        "concept:.claude/CLAUDE.md#graphify",
+        "concept:.claude/settings.json#hooks",
+        "concept:.claude/skills/graphify/SKILL.md#For_--cluster-only",
+        "concept:.claude/skills/graphify/SKILL.md#For_--update__incremental_re-extraction_",
+        "concept:.claude/skills/graphify/SKILL.md#For_--watch",
+        "concept:.claude/skills/graphify/SKILL.md#For__graphify_add",
+        "concept:.claude/skills/graphify/SKILL.md#For__graphify_explain",
+        "concept:.claude/skills/graphify/SKILL.md#For__graphify_path",
+        "concept:.claude/skills/graphify/SKILL.md#For__graphify_query",
+        "concept:.claude/skills/graphify/SKILL.md#For_git_commit_hook",
+        "concept:.claude/skills/graphify/SKILL.md#For_native_CLAUDE.md_integration",
+        "concept:.claude/skills/graphify/SKILL.md#Honesty_Rules",
+        "concept:.claude/skills/graphify/SKILL.md#Interpreter_guard_for_subcommands",
+        "concept:.claude/skills/graphify/SKILL.md#Part_A_-_Structural_extraction_for_code_files",
+        "concept:.claude/skills/graphify/SKILL.md#Part_B_-_Semantic_extraction__parallel_subagents_",
+        "concept:.claude/skills/graphify/SKILL.md#Part_C_-_Merge_AST___semantic_into_final_extraction",
+        "concept:.claude/skills/graphify/SKILL.md#Step_0_-_Clone_GitHub_repo_s___only_if_a_GitHub_URL_was_given_",
+        "concept:.claude/skills/graphify/SKILL.md#Step_0___Constrained_query_expansion__REQUIRED_before_traversal_",
+        "concept:.claude/skills/graphify/SKILL.md#Step_1_-_Ensure_graphify_is_installed",
+        "concept:.claude/skills/graphify/SKILL.md#Step_1___Traversal",
+        "concept:.claude/skills/graphify/SKILL.md#Step_2.5_-_Transcribe_video___audio_files__only_if_video_files_detected_",
+        "concept:.claude/skills/graphify/SKILL.md#Step_2_-_Detect_files",
+        "concept:.claude/skills/graphify/SKILL.md#Step_3_-_Extract_entities_and_relationships",
+        "concept:.claude/skills/graphify/SKILL.md#Step_4_-_Build_graph__cluster__analyze__generate_outputs",
+        "concept:.claude/skills/graphify/SKILL.md#Step_5_-_Label_communities",
+        "concept:.claude/skills/graphify/SKILL.md#Step_6_-_Generate_Obsidian_vault__opt-in____HTML",
+        "concept:.claude/skills/graphify/SKILL.md#Step_6b_-_Wiki__only_if_--wiki_flag_",
+        "concept:.claude/skills/graphify/SKILL.md#Step_7_-_Neo4j_export__only_if_--neo4j_or_--neo4j-push_flag_",
+        "concept:.claude/skills/graphify/SKILL.md#Step_7b_-_SVG_export__only_if_--svg_flag_",
+        "concept:.claude/skills/graphify/SKILL.md#Step_7c_-_GraphML_export__only_if_--graphml_flag_",
+        "concept:.claude/skills/graphify/SKILL.md#Step_7d_-_MCP_server__only_if_--mcp_flag_",
+        "concept:.claude/skills/graphify/SKILL.md#Step_8_-_Token_reduction_benchmark__only_if_total_words___5000_",
+        "concept:.claude/skills/graphify/SKILL.md#Step_9_-_Save_manifest__update_cost_tracker__clean_up__and_report",
+        "concept:.claude/skills/graphify/SKILL.md#Usage",
+        "concept:.claude/skills/graphify/SKILL.md#What_You_Must_Do_When_Invoked",
+        "concept:.claude/skills/graphify/SKILL.md#What_graphify_is_for",
+        "concept:.claude/skills/graphify/SKILL.md#_graphify",
+        "concept:.codex/hooks.json#hooks",
+        "concept:.understand-anything/config.json#autoUpdate",
+        "concept:.understand-anything/config.json#language",
+        "concept:.understand-anything/config.json#outputLanguage",
+        "concept:AGENTS.md#App_Platform_Portability",
+        "concept:AGENTS.md#Project_Plans_and_Session_Logs",
+        "concept:AGENTS.md#Shared_Knowledge_Sources",
+        "concept:AGENTS.md#graphify",
+        "concept:AGENTS.md#understand-anything",
+        "concept:CLAUDE.md#App_Platform_Portability",
+        "concept:CLAUDE.md#Project_Plans_and_Session_Logs",
+        "concept:CLAUDE.md#Shared_Knowledge_Sources",
+        "concept:CLAUDE.md#graphify",
+        "concept:CLAUDE.md#understand-anything",
+        "concept:ai/README.md#AI_Work_Notes",
+        "concept:ai/plans/README.md#Plans",
+        "concept:ai/session-logs/README.md#Session_Logs",
+        "file:.agents/skills/graphify/.graphify_version",
+        "file:.claude/skills/graphify/.graphify_version",
+        "file:.graphifyignore",
+        "file:.understand-anything/.understandignore"
+      ]
+    },
+    {
+      "id": "layer:configuration",
+      "name": "설정",
+      "description": "빌드, 도구, 환경 설정",
+      "nodeIds": [
+        "config:.claude/settings.json",
+        "config:.codex/hooks.json",
+        "config:.understand-anything/config.json"
+      ]
+    },
+    {
+      "id": "layer:docs",
+      "name": "문서",
+      "description": "계획, 운영, 설명 문서",
+      "nodeIds": [
+        "document:.agents/skills/graphify/SKILL.md",
+        "document:.claude/CLAUDE.md",
+        "document:.claude/skills/graphify/SKILL.md",
+        "document:AGENTS.md",
+        "document:CLAUDE.md",
+        "document:ai/README.md",
+        "document:ai/plans/README.md",
+        "document:ai/session-logs/README.md"
+      ]
+    },
+    {
+      "id": "layer:tests",
+      "name": "검증",
+      "description": "테스트와 품질 확인 파일",
+      "nodeIds": [
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#1._________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#10._______________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#11._______________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#12._________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#13._MVP______",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#14._MVP______",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#15.______________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#16._________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#17.__________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#18.______________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#19._i18n___",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#2._____",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#20.___________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#21.__________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#22._______",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#23.______",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#24.________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#25._________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#3.______________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#4._______",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5.1_______",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5.2_________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5.3_________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5.4_________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#5._______",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#6.____________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.10__________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.1______",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.2__________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.3_________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.4__________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.5_participantA____",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.6_participantA______",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.7_________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.8_participantB____",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7.9_________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#7._MVP_______",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#8.__________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#9.____________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#________________MVP______",
+        "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Commands___Verification",
+        "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Decisions_Made",
+        "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Files_Changed",
+        "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Knowledge_Promotion",
+        "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Next_Steps",
+        "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Remaining_Risks",
+        "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#Session_Log:_________________",
+        "concept:ai/session-logs/2026-06-08-couple-tendency-product-spec.md#User_Request",
+        "document:ai/plans/2026-06-08-couple-tendency-product-spec.md",
+        "document:ai/session-logs/2026-06-08-couple-tendency-product-spec.md"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "소스 코드 살펴보기",
+      "description": "주요 제품 코드와 스크립트",
+      "nodeIds": [
+        "concept:.agents/skills/graphify/SKILL.md#For_--cluster-only",
+        "concept:.agents/skills/graphify/SKILL.md#For_--update__incremental_re-extraction_",
+        "concept:.agents/skills/graphify/SKILL.md#For_--watch",
+        "concept:.agents/skills/graphify/SKILL.md#For__graphify_add",
+        "concept:.agents/skills/graphify/SKILL.md#For__graphify_explain",
+        "concept:.agents/skills/graphify/SKILL.md#For__graphify_path",
+        "concept:.agents/skills/graphify/SKILL.md#For__graphify_query",
+        "concept:.agents/skills/graphify/SKILL.md#For_git_commit_hook"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "설정 살펴보기",
+      "description": "빌드, 도구, 환경 설정",
+      "nodeIds": [
+        "config:.claude/settings.json",
+        "config:.codex/hooks.json",
+        "config:.understand-anything/config.json"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "문서 살펴보기",
+      "description": "계획, 운영, 설명 문서",
+      "nodeIds": [
+        "document:.agents/skills/graphify/SKILL.md",
+        "document:.claude/CLAUDE.md",
+        "document:.claude/skills/graphify/SKILL.md",
+        "document:AGENTS.md",
+        "document:CLAUDE.md",
+        "document:ai/README.md",
+        "document:ai/plans/README.md",
+        "document:ai/session-logs/README.md"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "검증 살펴보기",
+      "description": "테스트와 품질 확인 파일",
+      "nodeIds": [
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#1._________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#10._______________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#11._______________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#12._________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#13._MVP______",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#14._MVP______",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#15.______________",
+        "concept:ai/plans/2026-06-08-couple-tendency-product-spec.md#16._________"
+      ]
+    }
+  ]
+}

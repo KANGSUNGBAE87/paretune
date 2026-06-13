@@ -1,0 +1,8 @@
+{
+  "lastAnalyzedAt": "2026-06-09T16:58:36.558Z",
+  "gitCommitHash": "unknown",
+  "version": "1.0.0",
+  "analyzedFiles": 17,
+  "structuralRefresh": true,
+  "generator": "ai/scripts/update-ua-structural.mjs"
+}

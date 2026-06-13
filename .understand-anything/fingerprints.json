@@ -1,0 +1,177 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "unknown",
+  "generatedAt": "2026-06-09T16:58:52.395Z",
+  "files": {
+    ".agents/skills/graphify/.graphify_version": {
+      "filePath": ".agents/skills/graphify/.graphify_version",
+      "contentHash": "e7f1bf29b4e159e6291e2054fa9fecaa2e98a897a161651d01a8eb867f92af61",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1,
+      "hasStructuralAnalysis": false
+    },
+    ".agents/skills/graphify/SKILL.md": {
+      "filePath": ".agents/skills/graphify/SKILL.md",
+      "contentHash": "474506aceae8b702f137ae786de3afa2b5edfbbf133722622f143c86935da777",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1318,
+      "hasStructuralAnalysis": true
+    },
+    ".claude/CLAUDE.md": {
+      "filePath": ".claude/CLAUDE.md",
+      "contentHash": "c3e43ea0f68fbf7127e6b128a31c737f6908fde51b03dd441bf5cd806b325b09",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    ".claude/settings.json": {
+      "filePath": ".claude/settings.json",
+      "contentHash": "c95d9f3b15d3409b2a2b8d4307b499b4f68b8118edd94a012c75d6c950d3b1d4",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 15,
+      "hasStructuralAnalysis": true
+    },
+    ".claude/skills/graphify/.graphify_version": {
+      "filePath": ".claude/skills/graphify/.graphify_version",
+      "contentHash": "e7f1bf29b4e159e6291e2054fa9fecaa2e98a897a161651d01a8eb867f92af61",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1,
+      "hasStructuralAnalysis": false
+    },
+    ".claude/skills/graphify/SKILL.md": {
+      "filePath": ".claude/skills/graphify/SKILL.md",
+      "contentHash": "f98911f007a567007484f71f4a5754f9158360b55fe15a97431f2cf403af7095",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1157,
+      "hasStructuralAnalysis": true
+    },
+    ".codex/hooks.json": {
+      "filePath": ".codex/hooks.json",
+      "contentHash": "da85df404eb9c20062592e52112fe5d4efdad237aec439b6dbb9a8205b94e5ce",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 15,
+      "hasStructuralAnalysis": true
+    },
+    ".graphifyignore": {
+      "filePath": ".graphifyignore",
+      "contentHash": "cab1b2f25aea7b8f8ae357460f0fa3cc4f0aef166c0525bdbc14b02f6aed1258",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 20,
+      "hasStructuralAnalysis": false
+    },
+    ".understand-anything/.understandignore": {
+      "filePath": ".understand-anything/.understandignore",
+      "contentHash": "d0c31c6572c66a4e592730fb2707a2df4010d2da9118e0c6e8a4c604744caf4a",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 12,
+      "hasStructuralAnalysis": false
+    },
+    ".understand-anything/config.json": {
+      "filePath": ".understand-anything/config.json",
+      "contentHash": "b52c88617e1d5364c49ee915eccc5185b1e23c4d0f01ac167b75868f1b16fbc0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 6,
+      "hasStructuralAnalysis": true
+    },
+    "AGENTS.md": {
+      "filePath": "AGENTS.md",
+      "contentHash": "c0a49e07ac3c5316a7901b20a825192acc4a15136d39b1f4356e8a1a0dc8a264",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 70,
+      "hasStructuralAnalysis": true
+    },
+    "ai/plans/2026-06-08-couple-tendency-product-spec.md": {
+      "filePath": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "contentHash": "ec34878feb0bb227d7a5ee937093613573630419b6f7fc97e3e7b64a571bd014",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 728,
+      "hasStructuralAnalysis": true
+    },
+    "ai/plans/README.md": {
+      "filePath": "ai/plans/README.md",
+      "contentHash": "005b6ef3b13d387739667f4347b0fd20f843f1f928f26a7e1a2b10ead3a6e1d6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 10,
+      "hasStructuralAnalysis": true
+    },
+    "ai/README.md": {
+      "filePath": "ai/README.md",
+      "contentHash": "0767c0e2d0c688f868af9f7e4e532d3178eca657775e8690450eff11089f425a",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 15,
+      "hasStructuralAnalysis": true
+    },
+    "ai/session-logs/2026-06-08-couple-tendency-product-spec.md": {
+      "filePath": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "contentHash": "7804aa9b05300e27bf81960e0ec237ee4844a5f2950a0f738b8dd148b0f23bad",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 55,
+      "hasStructuralAnalysis": true
+    },
+    "ai/session-logs/README.md": {
+      "filePath": "ai/session-logs/README.md",
+      "contentHash": "0b2614dc5f24d2842fe7203c053171bb60c01a493f1c2ae37e7bf1b39575acab",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 17,
+      "hasStructuralAnalysis": true
+    },
+    "CLAUDE.md": {
+      "filePath": "CLAUDE.md",
+      "contentHash": "c0a49e07ac3c5316a7901b20a825192acc4a15136d39b1f4356e8a1a0dc8a264",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 70,
+      "hasStructuralAnalysis": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+export const tokens = {
+  colors: {
+    bgWarmIvory: "#FFF8EF",
+    bgCream: "#F7EFE3",
+    surface: "#FFFCF7",
+    coralTint: "#FFF0EB",
+    lavenderTint: "#F4F0FF",
+    blueTint: "#EFF6FF",
+    primaryCoral: "#BE5447",
+    secondaryLavender: "#7463C7",
+    accentBlue: "#476FBC",
+    safeGreen: "#2F6B52",
+    warningAmber: "#8A5A12",
+    dangerMuted: "#9E463B",
+    textPrimary: "#33251F",
+    textSecondary: "#746A62",
+    borderSoft: "#E7DBCF",
+  },
+  radius: {
+    sm: "12px",
+    md: "16px",
+    lg: "20px",
+    xl: "24px",
+    pill: "999px",
+  },
+};

@@ -1,0 +1,150 @@
+{
+  "projectName": "커플성향",
+  "projectDescription": "커플성향 프로젝트 구조 그래프",
+  "languages": [
+    "json",
+    "markdown",
+    "unknown"
+  ],
+  "frameworks": [],
+  "scriptCompleted": true,
+  "files": [
+    {
+      "path": ".agents/skills/graphify/.graphify_version",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".agents/skills/graphify/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 1317,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/CLAUDE.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/settings.json",
+      "language": "json",
+      "sizeLines": 14,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".claude/skills/graphify/.graphify_version",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".claude/skills/graphify/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 1156,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".codex/hooks.json",
+      "language": "json",
+      "sizeLines": 14,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".graphifyignore",
+      "language": "unknown",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": "AGENTS.md",
+      "language": "markdown",
+      "sizeLines": 69,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "ai/plans/2026-06-08-couple-tendency-product-spec.md",
+      "language": "markdown",
+      "sizeLines": 727,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "ai/plans/README.md",
+      "language": "markdown",
+      "sizeLines": 9,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "ai/README.md",
+      "language": "markdown",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "ai/session-logs/2026-06-08-couple-tendency-product-spec.md",
+      "language": "markdown",
+      "sizeLines": 54,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "ai/session-logs/README.md",
+      "language": "markdown",
+      "sizeLines": 16,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "CLAUDE.md",
+      "language": "markdown",
+      "sizeLines": 69,
+      "fileCategory": "docs"
+    }
+  ],
+  "totalFiles": 17,
+  "filteredByIgnore": 23,
+  "estimatedComplexity": "small",
+  "stats": {
+    "filesScanned": 17,
+    "byCategory": {
+      "code": 4,
+      "docs": 10,
+      "config": 3
+    },
+    "byLanguage": {
+      "unknown": 4,
+      "markdown": 10,
+      "json": 3
+    }
+  },
+  "importMap": {
+    ".agents/skills/graphify/.graphify_version": [],
+    ".agents/skills/graphify/SKILL.md": [],
+    ".claude/CLAUDE.md": [],
+    ".claude/settings.json": [],
+    ".claude/skills/graphify/.graphify_version": [],
+    ".claude/skills/graphify/SKILL.md": [],
+    ".codex/hooks.json": [],
+    ".graphifyignore": [],
+    ".understand-anything/.understandignore": [],
+    ".understand-anything/config.json": [],
+    "AGENTS.md": [],
+    "ai/plans/2026-06-08-couple-tendency-product-spec.md": [],
+    "ai/plans/README.md": [],
+    "ai/README.md": [],
+    "ai/session-logs/2026-06-08-couple-tendency-product-spec.md": [],
+    "ai/session-logs/README.md": [],
+    "CLAUDE.md": []
+  }
+}

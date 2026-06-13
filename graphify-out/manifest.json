@@ -1,0 +1,482 @@
+{
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/.claude/settings.json": {
+    "mtime": 1780850745.5416229,
+    "ast_hash": "87f0d903477984d0587a02f8fe185263",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/.codex/hooks.json": {
+    "mtime": 1780850745.4753656,
+    "ast_hash": "d11de088fec93f4df68e27c0d6443a9e",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/.understand-anything/config.json": {
+    "mtime": 1781024331.2567792,
+    "ast_hash": "9edbc24de94a33f8fd4a958982cff046",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/.agents/skills/graphify/SKILL.md": {
+    "mtime": 1780850745.4743068,
+    "ast_hash": "960d770f159b5917d87dc28b8a75536a",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/.claude/CLAUDE.md": {
+    "mtime": 1780849750.5740497,
+    "ast_hash": "db73b0edd7ffbc61ceac177130730865",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/.claude/skills/graphify/SKILL.md": {
+    "mtime": 1780850745.5404677,
+    "ast_hash": "5ae00786ea53e4d944ab70abe11eedd1",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/AGENTS.md": {
+    "mtime": 1781288362.2220728,
+    "ast_hash": "7cafe19d59d76b4e4af3ea6928a8592a",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/CLAUDE.md": {
+    "mtime": 1781288362.2224305,
+    "ast_hash": "7cafe19d59d76b4e4af3ea6928a8592a",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/README.md": {
+    "mtime": 1780849750.3092856,
+    "ast_hash": "552cddafebf47afc7395f4a45cefbe42",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/plans/2026-06-08-couple-tendency-product-spec.md": {
+    "mtime": 1781322465.6434991,
+    "ast_hash": "976ab27d1026ca51e193f97914002178",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/plans/README.md": {
+    "mtime": 1780849750.313051,
+    "ast_hash": "9859681bdce5ec600bd6232825a41870",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/session-logs/2026-06-08-couple-tendency-product-spec.md": {
+    "mtime": 1781322675.113906,
+    "ast_hash": "1b28756e54f0125aa554a01c1f1958d0",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/session-logs/README.md": {
+    "mtime": 1780850745.3510723,
+    "ast_hash": "cd99a5fd21da0b0941e9c3cc1d0d30d3",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/reviews/README.md": {
+    "mtime": 1781288362.2226353,
+    "ast_hash": "52d19aacaa21b2762c2b1c352cc47adb",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/plans/couple-ui-design-spec.md": {
+    "mtime": 1781332608.38794,
+    "ast_hash": "d1591c4f444170ed6bc58c88b7ec4801",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/plans/design-plan.md": {
+    "mtime": 1781335205.3832347,
+    "ast_hash": "3af97f9f40a0039e3169073fac31ea1b",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/session-logs/2026-06-13-couple-ui-design-spec.md": {
+    "mtime": 1781332668.7051218,
+    "ast_hash": "41650c30a3cb4f285025d8882b075a9c",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/plans/couple-mvp-integrated-design-question-result-spec.md": {
+    "mtime": 1781322634.519893,
+    "ast_hash": "952e82902fb792bf34e2512744da2e0e",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/plans/couple-question-result-engine-plan.md": {
+    "mtime": 1781322634.6106706,
+    "ast_hash": "6dc55901711f67ae0bcc8ddffa5c9863",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/session-logs/2026-06-13-question-result-logic-reflection.md": {
+    "mtime": 1781322695.2971976,
+    "ast_hash": "a4a6561f75b30f2986424a6b4af32fbb",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/plans/couple-mvp-implementation-plan.md": {
+    "mtime": 1781322892.4887872,
+    "ast_hash": "19a38d280bfc85fd324681fabd44ced7",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/plans/implementation-plan.md": {
+    "mtime": 1781336326.2744453,
+    "ast_hash": "b052bba9ef3fe1031fe4bb5e126d3cdc",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/session-logs/2026-06-13-couple-mvp-implementation-plan.md": {
+    "mtime": 1781322914.7359235,
+    "ast_hash": "3768651265110f46611d229247dd5162",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/reviews/review.md": {
+    "mtime": 1781332589.0120046,
+    "ast_hash": "a209f8bebdc7abe8a375fec36d122e7f",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/.gstack/claude-available.json": {
+    "mtime": 1781334355.7434852,
+    "ast_hash": "12ee9ceb0b345449822650d9a6ceeb43",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/package.json": {
+    "mtime": 1781333569.1911476,
+    "ast_hash": "2bc40bbd6d87853143e96251cab24da9",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/App.test.tsx": {
+    "mtime": 1781335736.1130304,
+    "ast_hash": "6f55345abaeb5e0b854b73988e8ae66c",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/App.tsx": {
+    "mtime": 1781335751.459802,
+    "ast_hash": "565726877277ee921bd2fb6819a0982e",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/components/AppShell.tsx": {
+    "mtime": 1781333721.2467732,
+    "ast_hash": "2032fe17b951aa4989bfd8a5e0cf828a",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/components/DeleteConfirmModal.tsx": {
+    "mtime": 1781334070.9443107,
+    "ast_hash": "1c0fe3013a61ad1ddb509bc0255008aa",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/components/GhostButton.tsx": {
+    "mtime": 1781333721.5365825,
+    "ast_hash": "ba953626267e3e80dc8f65f4e5fea593",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/components/NoticeCard.tsx": {
+    "mtime": 1781333722.0290148,
+    "ast_hash": "3d5a066ac5750e62fc9dcb50dc9c5b5c",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/components/PrimaryButton.tsx": {
+    "mtime": 1781333721.3422525,
+    "ast_hash": "ffbb4144dc9ad9e5e00fe328d559e77f",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/components/ProgressBar.tsx": {
+    "mtime": 1781333721.7354012,
+    "ast_hash": "0e9e7ae917bdfc370a9f9b8bca401da3",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/components/ScreenHeader.tsx": {
+    "mtime": 1781333721.6403892,
+    "ast_hash": "531d796f331fbbf95dd7887362b3bc63",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/components/SecondaryButton.tsx": {
+    "mtime": 1781333721.4377573,
+    "ast_hash": "dfeb08c4a54383b429f466d4eb2713f1",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/components/SelectChip.tsx": {
+    "mtime": 1781333721.8313372,
+    "ast_hash": "6b4844b09f24ee309cd85c64a55a8d82",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/components/TextInputCard.tsx": {
+    "mtime": 1781333721.9295197,
+    "ast_hash": "287cbc53841ccccda7782aaf62b246e8",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/questions/questions.test.ts": {
+    "mtime": 1781333093.9932508,
+    "ast_hash": "57da22add56bbeb64e0f8d6991bb2066",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/questions/questions.ts": {
+    "mtime": 1781333374.146219,
+    "ast_hash": "2ce0545db7a9965d37683d220f5ec940",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/questions/resultAxes.ts": {
+    "mtime": 1781333374.4258962,
+    "ast_hash": "3dc42ede5d86e7cf2f51bff6c5655a74",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/report/reportTypes.ts": {
+    "mtime": 1781333500.6100385,
+    "ast_hash": "e440f1965d2df11cc118f03be20f158b",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/report/resultTemplates.ts": {
+    "mtime": 1781333480.4319675,
+    "ast_hash": "a2e4e7ae47ef045180c6323df2a2d734",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/scoring/compareParticipants.test.ts": {
+    "mtime": 1781333094.1692173,
+    "ast_hash": "1aaa9350b951ee5530cd80cb9f8bea3a",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/scoring/compareParticipants.ts": {
+    "mtime": 1781334080.606986,
+    "ast_hash": "8e377533ebc357eb805cbf84d25741ca",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/scoring/generateCoupleReport.test.ts": {
+    "mtime": 1781334086.2953024,
+    "ast_hash": "7b961c70abc66b29e027ef6d962efb0b",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/scoring/generateCoupleReport.ts": {
+    "mtime": 1781333480.529155,
+    "ast_hash": "7c92e9d9c66c19057f71492183c600bb",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/scoring/scoreParticipant.test.ts": {
+    "mtime": 1781333094.080761,
+    "ast_hash": "623ed62b664cc69c913b78f68553cf99",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/scoring/scoreParticipant.ts": {
+    "mtime": 1781333429.6589844,
+    "ast_hash": "c4074c9214febed1eeeb6f20f288711e",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/scoring/selectAlignedAreas.ts": {
+    "mtime": 1781333500.717232,
+    "ast_hash": "df8c82795d16bf4990ec9eac25382106",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/scoring/selectTopDifferences.ts": {
+    "mtime": 1781333429.9512491,
+    "ast_hash": "b7ea77de8ba3b590d7852d41d9135baa",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/session/sessionStateMachine.test.ts": {
+    "mtime": 1781333094.3482602,
+    "ast_hash": "92c9516d9bd8998f675bf3c44e5be302",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/session/sessionStateMachine.ts": {
+    "mtime": 1781333480.6372635,
+    "ast_hash": "2afbf2216b4234322f845cfadc45c41f",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/core/session/sessionTypes.ts": {
+    "mtime": 1781333373.963808,
+    "ast_hash": "82e57c95ec6d8026e231fc6a47cb4d46",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/design/theme.ts": {
+    "mtime": 1781334098.156438,
+    "ast_hash": "73f33d30b5255be9daf96213b3a63f11",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/result/AgreementCard.tsx": {
+    "mtime": 1781333830.4327016,
+    "ast_hash": "b35328f6cc326f21a76a99bf5afbd70a",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/result/CoupleResultScreen.tsx": {
+    "mtime": 1781335766.3445523,
+    "ast_hash": "b83334a547c804f2753680f154a3ef17",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/result/DifferenceCard.tsx": {
+    "mtime": 1781333830.3418407,
+    "ast_hash": "4d8c897ad07c371b4de79e8c21973ed6",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/result/MissionCard.tsx": {
+    "mtime": 1781333830.5285034,
+    "ast_hash": "3f3293d4a62a05c56ea78b6ec76154ba",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/result/ResultSummaryCard.tsx": {
+    "mtime": 1781334658.7489898,
+    "ast_hash": "184a79335a08257d62b08ecbb53a5a4c",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/session/HandoffScreen.tsx": {
+    "mtime": 1781333784.851104,
+    "ast_hash": "de78c157515bf7b5a3ac901bd64c1376",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/session/ParticipantBStartScreen.tsx": {
+    "mtime": 1781333784.9346526,
+    "ast_hash": "edebaa0c4523a9b7ede64260f761a8d7",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/session/ReadyToRevealScreen.tsx": {
+    "mtime": 1781333785.0177982,
+    "ast_hash": "29e6763adb8728b7178040d0398c3440",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/session/SafetyNoticeScreen.tsx": {
+    "mtime": 1781333784.6859334,
+    "ast_hash": "5977b5e0e7116d0d2a5c3936ab65e426",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/session/SessionSetupScreen.tsx": {
+    "mtime": 1781333784.7678726,
+    "ast_hash": "53a666dcda5d6b220f42dd54ea94a8bd",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/session/StartScreen.tsx": {
+    "mtime": 1781333784.5995636,
+    "ast_hash": "e705607ca43778fe3865a88d82a134cf",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/settings/SettingsScreen.tsx": {
+    "mtime": 1781335010.8877342,
+    "ast_hash": "f021f3b66b2ced7459fd35e5f54b5eb1",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/share/ShareCardScreen.tsx": {
+    "mtime": 1781334793.9436185,
+    "ast_hash": "d765c48c802295c30ab3b2c97418e71d",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/share/SharePreviewCard.tsx": {
+    "mtime": 1781333830.704361,
+    "ast_hash": "a7b95a548f43a7c2a21695c9a313c045",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/test/QuestionCard.tsx": {
+    "mtime": 1781333829.9676766,
+    "ast_hash": "04726c3daaf759fde81bb8188a8eebcd",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/test/ScaleOptionGroup.tsx": {
+    "mtime": 1781333830.0630076,
+    "ast_hash": "4e417c9068fcb55bd63c7bb1fd63a74e",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/features/test/TestScreen.tsx": {
+    "mtime": 1781333830.1580467,
+    "ast_hash": "fca2a0edb697e1bca2eba1de0f0ebd40",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/i18n/en.ts": {
+    "mtime": 1781333429.4646783,
+    "ast_hash": "b3db039a88d719bcecb5edef551dc130",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/i18n/index.ts": {
+    "mtime": 1781333429.5596442,
+    "ast_hash": "c578261f42c51b60ade06f2656f2b42a",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/i18n/ko.ts": {
+    "mtime": 1781335776.1727319,
+    "ast_hash": "eefa1146c53aaaafa36b9213aa03ce50",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/main.tsx": {
+    "mtime": 1781333906.3866196,
+    "ast_hash": "c9cc778ff6bc03b3b5ae2e2b49ef3f4f",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/AnalyticsAdapter.ts": {
+    "mtime": 1781333739.990728,
+    "ast_hash": "04b33567b2fbe3b956aabb913b254d7d",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/AuthAdapter.ts": {
+    "mtime": 1781333740.3251512,
+    "ast_hash": "304077bff69525a6bbe650d889615e4e",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/LocaleAdapter.ts": {
+    "mtime": 1781333740.2174532,
+    "ast_hash": "6bef7f58bf8a0681aae432c661241833",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/PaymentAdapter.ts": {
+    "mtime": 1781333740.104621,
+    "ast_hash": "d3fdc8f0fc2cdab05733b3cf0fa853ca",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/ShareAdapter.ts": {
+    "mtime": 1781333739.8996298,
+    "ast_hash": "7b8ca65e6b053040dcbdf34f210c8e56",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/StorageAdapter.ts": {
+    "mtime": 1781333739.8102329,
+    "ast_hash": "710c5f370ca82b8d0ccc923e5e313cc9",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/index.ts": {
+    "mtime": 1781333741.0783563,
+    "ast_hash": "378acba161ccc79502d53844f87f36c1",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/analytics.ts": {
+    "mtime": 1781333740.631391,
+    "ast_hash": "c66a5a7e3e22f020a35faed9fbe09f90",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/auth.ts": {
+    "mtime": 1781333740.9670594,
+    "ast_hash": "26ba9b08596379f9973e11bf3e7accdb",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/locale.ts": {
+    "mtime": 1781333740.8452175,
+    "ast_hash": "b1b1f6bdbfedf01cc818f499c5f523ca",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/payment.ts": {
+    "mtime": 1781333740.7296164,
+    "ast_hash": "e804c9b72c237a22fdf2b16c099ec33f",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/share.ts": {
+    "mtime": 1781334126.7484813,
+    "ast_hash": "581891ed3124061ac9af7eb4a8653789",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/platform/web/storage.ts": {
+    "mtime": 1781333740.425294,
+    "ast_hash": "9d3f1a6e04a9523c983b085a7dbf381c",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/src/test/setup.ts": {
+    "mtime": 1781335813.9000537,
+    "ast_hash": "588cd49cfebf25b71297120d02f99632",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/tsconfig.json": {
+    "mtime": 1781333093.7275171,
+    "ast_hash": "0a1d3f3e1da4bed2f710ef73a39edcc7",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/vite.config.ts": {
+    "mtime": 1781335723.9396286,
+    "ast_hash": "e28c8b018c0ad21777005b6f6908f7ab",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/session-logs/2026-06-13-couple-mvp-implementation.md": {
+    "mtime": 1781335224.0826776,
+    "ast_hash": "b40967487a425d763d09f6454094aea6",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/index.html": {
+    "mtime": 1781333093.6306863,
+    "ast_hash": "5e574b97d2ffc7d65e9b2d4605f71d03",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/session-logs/2026-06-13-result-action-ui-fix.md": {
+    "mtime": 1781336344.4978483,
+    "ast_hash": "3e81c16c4d25afa05958a098c0ea8007",
+    "semantic_hash": ""
+  },
+  "/Users/kangsungbae/Documents/\ucee4\ud50c\uc131\ud5a5/ai/session-logs/2026-06-13-github-origin.md": {
+    "mtime": 1781347597.1698895,
+    "ast_hash": "325ba855a349bc02f9066ec06c1b433a",
+    "semantic_hash": ""
+  }
+}
